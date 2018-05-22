@@ -6,7 +6,7 @@
 
 @include(_get_frontend_layout_path('frontend.loading'))
 @include(_get_frontend_layout_path('frontend.header'))
-@include(_get_frontend_theme_path('pages.elements.'.$pageTitle))
+@include(_get_frontend_theme_path('pages.elements.'.strtolower($pageTitle)))
 @yield('content')
 
 @include(_get_frontend_layout_path('frontend.footer'))
