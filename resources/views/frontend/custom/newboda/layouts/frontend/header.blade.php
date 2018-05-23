@@ -34,8 +34,8 @@
                 <div class="row headtell">
                     <i class="fa fa-phone"></i>
                     <div class="newphone">
-                        <p>03 9563 2204 <span>(9:00 - 17:00) </span></p>
-                        <p>0433 588 517 <span> (After hour) </span></p>
+                        <p>{{$siteConfig->contact_phone}}</p>
+                        <p>{{$siteConfig->contact_fax}}</p>
                     </div>
                 </div>
                 <div class="row btnrates">

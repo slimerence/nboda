@@ -18,12 +18,14 @@
             </div>
             <div class="maincontent">
                 <div class="leftform">
-                    <form id="contactus" method="post" action="/contactus.php">
-                        <input type="text" name="name" placeholder="NAME*" class="width2"/>
-                        <input type="text" name="postcode" placeholder="POSTCODE" class="width4"/>
-                        <input type="text" name="phone" placeholder="PHONE*" class="width2"/>
-                        <textarea type="text" name="message" placeholder="MESSAGE"></textarea>
-                        <button type="submit" value="SUBMIT">SUBMIT</button>
+                    <form id="contact-us" method="post" action="{{ url('contact-us') }}">
+                        {{csrf_field()}}
+                        <input type="hidden" name="lead[email]" id="input-email" value="hh">
+                        <input type="text" name="lead[name]" id="input-name" placeholder="NAME*" class="width2"/>
+                        <input type="text" name="lead[postcode]" placeholder="POSTCODE" class="width4"/>
+                        <input type="text" name="lead[phone]" id="input-phone" placeholder="PHONE*" class="width2"/>
+                        <textarea type="text" name="lead[message]" id="input-message" placeholder="MESSAGE"></textarea>
+                        <button type="submit" value="SUBMIT" id="submit-contact-us-btn">SUBMIT</button>
                     </form>
                 </div>
                 <div class="rightinfo">
