@@ -8,28 +8,28 @@
         <div class="cssTd">
             <ul class="sideul">
                 <li>
-                    <a href="/" class="current">HOME</a>
+                    <a href="/zh-cn" class="current">首页</a>
                 </li>
                 <li>
-                    <a href="/aboutus">ABOUT US</a>
+                    <a href="/zh-cn/aboutus">关于我们</a>
                 </li>
                 <li>
-                    <a href="/services">SERVICES</a>
+                    <a href="/zh-cn/services">服务</a>
                 </li>
                 <li>
-                    <a href="/gallery">GALLERY</a>
+                    <a href="/zh-cn/gallery">案例</a>
                 </li>
                 <li>
-                    <a href="/hiring">HIRING</a>
+                    <a href="/zh-cn/hiring">招聘</a>
                 </li>
                 <li>
-                    <a href="/getrates">GET RATES</a>
+                    <a href="/zh-cn/getrates">获得报价</a>
                 </li>
                 <li>
-                    <a href="/contactus">CONTACT US</a>
+                    <a href="/zh-cn/contactus">联系我们</a>
                 </li>
                 <li>
-                    <a href="/zh-cn">中文</a>
+                    <a href="/">EN</a>
                 </li>
             </ul>
         </div>
