@@ -198,4 +198,6 @@ Route::prefix('backend')->middleware('auth')->group(function(){
 });
 
 Route::get('/home', 'Backend\Home@index');
+Route::get('/zh-cn','Newboda\HomeController@cnhome');
 Route::get('/{link}', 'Newboda\HomeController@view');
+Route::get('/zh-cn/{link}','Newboda\HomeController@cnview');

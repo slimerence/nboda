@@ -34,4 +34,15 @@ class HomeController extends Controller
 
         return view(_get_frontend_theme_path('pages.'.$link),$this->dataForView);
     }
+
+    public function cnhome(){
+        $this->dataForView['pageTitle'] = 'home';
+
+        return view(_get_frontend_theme_path('pages.zn_ch.home'),$this->dataForView);
+    }
+
+    public function cnview($link){
+        $this->dataForView['pageTitle'] = $link;
+        return view(_get_frontend_theme_path('pages.zn_ch.'.$link),$this->dataForView);
+    }
 }
