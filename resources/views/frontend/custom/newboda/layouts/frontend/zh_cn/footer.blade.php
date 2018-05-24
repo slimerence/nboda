@@ -138,7 +138,7 @@
 <div class="mobfooter">
     <ul class="clearfix">
         <li>
-            <a href="/services">
+            <a href="/zh-cn/services">
                 <div class="fimg">
                     <img src="{{asset('images/newfrontend/fimg01.png')}}" pagespeed_url_hash="1945316654" onload=""/>
                 </div>
@@ -154,7 +154,7 @@
             </a>
         </li>
         <li>
-            <a href="/getrates">
+            <a href="/zh-cn/getrates">
                 <div class="fimg">
                     <img src="{{asset('images/newfrontend/fimg03.png')}}" pagespeed_url_hash="2534316496" onload=""/>
                 </div>
