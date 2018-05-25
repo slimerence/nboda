@@ -13,6 +13,7 @@ class Lead extends Model
         'phone',
         'email',
         'message',
+        'postcode',
         'product_id',
         'user_id'
     ];

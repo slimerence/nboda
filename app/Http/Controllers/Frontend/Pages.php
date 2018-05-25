@@ -96,12 +96,18 @@ class Pages extends Controller
      */
     public function contact_us_handler(Request $request){
         $leadData = $request->get('lead');
+        $isHandledSuccessfully = false;
         if($lead = Lead::Persistent($leadData)){
             // 通知网站管理员和用户
-            event(new LeadReceived($lead, $this->siteConfig->contact_email));
-            return JsonBuilder::Success();
+            event(new LeadReceived($lead, $this->siteConfig));
+            $isHandledSuccessfully = true;
         }
-        return JsonBuilder::Error();
+
+        // Put result into flash session
+        $request->session()->flash('status_contact_us_submit',$isHandledSuccessfully?'success':'fail');
+
+        // Redirect to contact us page
+        return redirect('/contactus');
     }
 
     /**

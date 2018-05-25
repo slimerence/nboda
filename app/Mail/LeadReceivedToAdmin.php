@@ -6,19 +6,26 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use App\Models\Lead;
+use App\Models\Configuration;
+use Log;
 
 class LeadReceivedToAdmin extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $lead;
+    public $siteConfig;
+
     /**
-     * Create a new message instance.
-     *
-     * @return void
+     * LeadReceivedToCustomer constructor.
+     * @param Lead $lead
+     * @param Configuration $configuration
      */
-    public function __construct()
+    public function __construct(Lead $lead, Configuration $configuration)
     {
-        //
+        $this->lead = $lead;
+        $this->siteConfig = $configuration;
     }
 
     /**
@@ -28,6 +35,7 @@ class LeadReceivedToAdmin extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.leads.received.to_admin');
+        return $this->subject('Newboda Clean: you got a new lead from the website!')
+            ->markdown('emails.leads.received.to_admin');
     }
 }

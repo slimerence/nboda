@@ -2,6 +2,7 @@
 
 namespace App\Events\Contact;
 
+use App\Models\Configuration;
 use App\Models\Lead;
 use Illuminate\Broadcasting\Channel;
 use Illuminate\Queue\SerializesModels;
@@ -16,17 +17,17 @@ class LeadReceived
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
     public $lead;
-    public $adminEmail;
+    public $siteConfig;
 
     /**
+     * LeadReceived constructor.
      * @param Lead $lead
-     * @param String $adminEmail
+     * @param Configuration $configuration
      */
-    public function __construct(Lead $lead, $adminEmail)
+    public function __construct(Lead $lead, Configuration $configuration)
     {
-
         $this->lead = $lead;
-        $this->adminEmail = $adminEmail;
+        $this->siteConfig = $configuration;
     }
 
     /**

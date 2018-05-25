@@ -1,12 +1,10 @@
 @component('mail::message')
-# Introduction
+# New Lead
 
-The body of your message.
+<p>Name: {{ $lead->name }}</p>
+<p>Phone: {{ $lead->phone }}</p>
+<p>Postcode: {{ $lead->postcode }}</p>
+<p>Message: {{ $lead->message }}</p>
 
-@component('mail::button', ['url' => ''])
-Button Text
-@endcomponent
-
-Thanks,<br>
-{{ config('app.name') }}
+Regard!<br>
 @endcomponent
