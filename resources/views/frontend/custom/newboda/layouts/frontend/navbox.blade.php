@@ -2,7 +2,7 @@
 <div class="Navbox">
     <ul class="clearfix">
         <li>
-            <a href="/">HOME</a>
+            <a href="/" class="{{ $menuName=='home' ? 'current':null }}">HOME</a>
         </li>
         <li>
             <a href="/aboutus" class="{{ $pageTitle=='aboutus' ? 'current':null }}">ABOUT US</a>

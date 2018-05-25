@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="row btnrates">
-                    <a href="/getrates">GET RATES</a>
+                    <a href="/getrates">获得报价</a>
                 </div>
             </div>
         </div>

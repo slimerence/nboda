@@ -1,13 +1,9 @@
-@extends(_get_frontend_layout_path('frontend'))
-
+@extends(_get_frontend_layout_path('cnfrontend'))
 @section('seoconfig')
-    <meta name="keywords" content="Melbourne Regular Cleaning | house cleaning services | commercial cleaning">
+    <meta name="keywords" content="办公室清洁 | 退房清洁 | 蒸洗地毯清洁">
 @endsection
-
 @section('content')
     <!-- index -->
-
-
 
     <div class="indexaboutus clearfix">
         <div class="row leftarticle">
@@ -15,14 +11,13 @@
             <div class="cssTable">
                 <div class="cssTd">
                     <article>
-                        <h1>ABOUT US</h1>
+                        <h1>关于我们</h1>
                         <div class="block">
-                            <p> We are a professional cleaning company servicing the greater Melbourne area, which includes CBD, Docklands, Southbank and entire district of Melbourne. </p>
-                            <p style="font-family:'HelveticaBold','Arial'">Our philosophy is “ Choose us, Choose to be looked after”.</p>
+                            <p> 新博达清洁公司，我们拥有专业的清洁团队，团队里每个人都拥有丰富的清洁经验，我们的团队长期服务于墨尔本市区的几家中介和银行。我们的清洁服务包括退房清洁、办公室清洁，家庭清洁、蒸气地毯清洁、 地板抛光等。 </p>
                         </div>
-                        <a href="/contactus" class="viewmore">
+                        <a href="/zh-cn/contactus" class="viewmore">
                             <i class="fa fa-angle-down"></i>
-                            <p>VIEW MORE</p>
+                            <p>查看更多</p>
                         </a>
                     </article>
                 </div>
@@ -31,14 +26,14 @@
         <div class="row rightbtnbox">
             <div class="cssTable">
                 <div class="cssTd">
-                    <a href="/contactus" class="">
+                    <a href="/zh-cn/contactus" class="">
                         <div class="box">
-                            <i class="fa fa-phone"></i>CONTACT US
+                            <i class="fa fa-phone"></i>联系我们
                         </div>
                     </a>
                     <a href="/getrates" class="">
                         <div class="box">
-                            <i><img src="{{asset('images/newfrontend/iconbook.png')}}" pagespeed_url_hash="340201434" onload=""></i>BOOK NOW
+                            <i><img src="{{asset('images/newfrontend/iconbook.png')}}" pagespeed_url_hash="340201434" onload=""></i>立即预定
                         </div>
                     </a>
                 </div>
@@ -50,8 +45,8 @@
     <div class="indexservice">
         <div class="wrap clearfix">
             <div class="contopTit">
-                <h1>OUR SERVICES</h1>
-                <p>We provide the safest and best cleaning service in Melbourne</p>
+                <h1>我们的服务</h1>
+                <p>新博达清洁致力于提供全墨尔本最快最优质的清洁服务</p>
             </div>
             <div class="serlistbox">
                 <ul class="clearfix">
@@ -59,61 +54,61 @@
                         <div class="topimg">
                             <img src="{{asset('images/newfrontend/ser01.png')}}" pagespeed_url_hash="1611111099" onload="">
                         </div>
-                        <p>End of Lease Clean</p>
+                        <p>退租清洁服务</p>
                     </li>
                     <li>
                         <div class="topimg">
                             <img src="{{asset('images/newfrontend/ser02.png')}}" pagespeed_url_hash="1905611020" onload="">
                         </div>
-                        <p>High Pressure Water Clean</p>
+                        <p>高压水枪清洁</p>
                     </li>
                     <li>
                         <div class="topimg">
                             <img src="{{asset('images/newfrontend/ser03.png')}}" pagespeed_url_hash="2200110941" onload="">
                         </div>
-                        <p>One-off Clean</p>
+                        <p>一次性清洁</p>
                     </li>
                     <li>
                         <div class="topimg">
                             <img src="{{asset('images/newfrontend/ser04.png')}}" pagespeed_url_hash="2494610862" onload="">
                         </div>
-                        <p>Regular Clean</p>
+                        <p>日常清洁</p>
                     </li>
                     <li>
                         <div class="topimg">
                             <img src="{{asset('images/newfrontend/ser05.png')}}" pagespeed_url_hash="2789110783" onload="">
                         </div>
-                        <p>Carpet Steam Clean</p>
+                        <p>蒸汽地毯清洁</p>
                     </li>
                     <li>
                         <div class="topimg">
                             <img src="{{asset('images/newfrontend/ser06.png')}}" pagespeed_url_hash="3083610704" onload="">
                         </div>
-                        <p>Specialist Clean</p>
+                        <p>专业特别清洁</p>
                     </li>
                     <li>
                         <div class="topimg">
                             <img src="{{asset('images/newfrontend/ser07.png')}}" pagespeed_url_hash="3378110625" onload="">
                         </div>
-                        <p>Pre and Post Pest Control Clean</p>
+                        <p>除虫服务清洁</p>
                     </li>
                     <li>
                         <div class="topimg">
                             <img src="{{asset('images/newfrontend/ser08.png')}}" pagespeed_url_hash="3672610546" onload="">
                         </div>
-                        <p>After Build Clean</p>
+                        <p>装修后清洁</p>
                     </li>
                     <li>
                         <div class="topimg">
                             <img src="{{asset('images/newfrontend/ser09.png')}}" pagespeed_url_hash="3967110467" onload="">
                         </div>
-                        <p>Office Clean</p>
+                        <p>办公室清洁</p>
                     </li>
                     <li>
                         <div class="topimg">
                             <img src="{{asset('images/newfrontend/ser10.png')}}" pagespeed_url_hash="1241395165" onload="">
                         </div>
-                        <p>Urgent Clean</p>
+                        <p>紧急情况清洁</p>
                     </li>
                 </ul>
             </div>
@@ -134,7 +129,7 @@
                         <p>CHOOSE US,</br>CHOOSE TO BE LOOKED AFTER</p>
                     </div>
                     <div class="btncontact">
-                        <a href="/contactus">CONTACT US</a>
+                        <a href="/zh-cn/contactus">联系我们</a>
                     </div>
                 </div>
             </div>
@@ -145,8 +140,8 @@
         <div class="wrap">
             <div class="choosebox">
                 <div class="contopTit">
-                    <h1>WHY CHOOSE US?</h1>
-                    <p>We provide the safest and best cleaning service in Melbourne</p>
+                    <h1>为什么选择我们?</h1>
+                    <p>新博达清洁致力于提供全墨尔本最快最优质的清洁服务</p>
                 </div>
                 <div class="whylistbox">
                     <ul class="clearfix">
@@ -154,25 +149,25 @@
                             <div class="topimg">
                                 <i></i>
                             </div>
-                            <p>All cleaners have public  </br> liability insurance </p>
+                            <p>含有公共责任保险</p>
                         </li>
                         <li>
                             <div class="topimg">
                                 <i></i>
                             </div>
-                            <p>All cleaners have clean </br> police record</p>
+                            <p>在职员工全部经过无犯罪记录审核</p>
                         </li>
                         <li>
                             <div class="topimg">
                                 <i></i>
                             </div>
-                            <p>Customer reviews used </br> to continously improve quality</p>
+                            <p>积极收集客户反馈，不断提升服务质量</p>
                         </li>
                     </ul>
                 </div>
                 <!--手机版新增 get rates-->
                 <div class="mobgetrates">
-                    <a href="/getrates">GET RATES</a>
+                    <a href="/zh-cn/getrates">获得报价</a>
                 </div>
                 <!-- end -->
             </div>
@@ -181,7 +176,7 @@
 
     <div class="testimonials clearfix">
         <div class="row leftmain">
-            <div class="topslogan">TESTIMONIALS</div>
+            <div class="topslogan">客户评价</div>
             <div class="block">
                 <ul>
 

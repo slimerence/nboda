@@ -24,6 +24,7 @@ class LeadReceived
      */
     public function __construct(Lead $lead, $adminEmail)
     {
+
         $this->lead = $lead;
         $this->adminEmail = $adminEmail;
     }

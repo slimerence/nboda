@@ -1,7 +1,5 @@
-@extends(_get_frontend_layout_path('frontend'))
-@section('seoconfig')
-    <meta name="keywords" content="end of lease clean | vacate clean melbourne | carpet steam clean">
-@endsection
+@extends(_get_frontend_layout_path('cnfrontend'))
+
 @section('content')
 
     <div class="infoconbox infoserbox">
@@ -14,11 +12,8 @@
             </div>
             <div class="bgleftwhite"></div>
             <div class="mainarticle">
-                <h1>Our Services</h1>
-                <p>We are a professional cleaning company servicing the greater Melbourne area, which includes CBD, Docklands, Southbank and entire district of Melbourne.</p>
-
-                <p>Our philosophy is &ldquo; Choose us, Choose to be looked after&rdquo;.</p>
-
+                <h1>我们的服务</h1>
+                <p>新博达清洁公司，我们拥有专业的清洁团队，团队里每个人都拥有丰富的清洁经验，我们的团队长期服务于墨尔本市区的几家中介和银行。我们的清洁服务包括退房清洁、办公室清洁，家庭清洁、蒸气地毯清洁、 地板抛光等。</p>
             </div>
         </div>
     </div>
@@ -33,9 +28,8 @@
                             <img src="{{asset('images/newfrontend/ser11.png')}}"/>
                         </div>
                         <div class="article">
-                            <h1>End of Lease Clean</h1>
-                            <p>
-                                We will strictly follow the standard of cleanliness of real estate agents to clean the property, to ensure that your bond can be returned,</p>
+                            <h1>退房清洁</h1>
+                            <p>我们会严格按照中介检查的清洁项目来清理房屋，从而确保您的押金能够如数返还。</p>
                         </div>
                     </li>
                     <li>
@@ -43,9 +37,8 @@
                             <img src="{{asset('images/newfrontend/ser12.png')}}"/>
                         </div>
                         <div class="article">
-                            <h1>High Pressure Water Clean</h1>
-                            <p>
-                                If you still concern about the dirt stain on the ground, you can choose our high-pressure water clean service, we will give you a peace of mind!</p>
+                            <h1>高压水枪清洁</h1>
+                            <p>您可以选择我们的高压水枪清洁服务来清理水泥地面，屋顶，花园等。清洁高效。</p>
 
                         </div>
                     </li>
@@ -54,15 +47,13 @@
                             <img src="{{asset('images/newfrontend/ser13.png')}}"/>
                         </div>
                         <div class="article">
-                            <h1>One-off Clean</h1>
-                            <p>
-                                Whether you wanna your whole house cleaned, or just a kitchen, we will tailor the cleaning service to suit your specific requirements.</p>
-
+                            <h1>一次性清洁</h1>
+                            <p>不管您是要清理厨房还是浴室等，我们都会按照您的要求选择适合您的清洁服务。</p>
                         </div>
                     </li>
                 </ul>
                 <div class="btnbox">
-                    <a href="/getrates">GET RATES</a>
+                    <a href="/zh-cn/getrates">获得报价</a>
                 </div>
                 <!-- 手机版新增 向下箭头 点击展现下面内容 -->
                 <div class="mobdownmore">
@@ -81,10 +72,8 @@
                                 <img src="{{asset('images/newfrontend/ser14.png')}}"/>
                             </div>
                             <div class="article">
-                                <h1>Regular Clean</h1>
-                                <p>
-                                    We will help you to save your time from housework, you can easily enjoy the beautiful day with your friends.</p>
-
+                                <h1>常规清洁</h1>
+                                <p>我们会让您从繁忙的家务中抽身出来，你可以与朋友一起惬意的享受这美好的一天。</p>
                             </div>
                         </li>
                         <li>
@@ -92,8 +81,8 @@
                                 <img src="{{asset('images/newfrontend/ser15.png')}}"/>
                             </div>
                             <div class="article">
-                                <h1>Carpet Steam Clean</h1>
-                                <p>Dirty carpet may cause skin irritation and regular carpet steam cleaning service can make your stay more enjoyable.</p>
+                                <h1>高压蒸汽地毯清洁</h1>
+                                <p>干净的地毯能够让您免于感染皮肤病，常规的地毯清洁能够让您住的更加舒心。</p>
                             </div>
                         </li>
                         <li>
@@ -101,15 +90,13 @@
                                 <img src="{{asset('images/newfrontend/ser16.png')}}"/>
                             </div>
                             <div class="article">
-                                <h1>Pre and Post Pest Control Clean</h1>
-                                <p>
-                                    We can offer you the professional pre and post pest control clean, this allows you to stay away from pest problems.</p>
-
+                                <h1>预除虫及除虫后清洁</h1>
+                                <p>除虫服务前或后您如果需要清理房屋的话，欢迎选用我们的除虫清洁服务。我们会最大程度地降低虫害对您物业的损害。</p>
                             </div>
                         </li>
                     </ul>
                     <div class="btnbox">
-                        <a href="/getrates">GET RATES</a>
+                        <a href="/getrates">获得报价</a>
                     </div>
                 </div>
             </div>
@@ -121,8 +108,8 @@
                                 <img src="{{asset('images/newfrontend/ser17.png')}}"/>
                             </div>
                             <div class="article">
-                                <h1>After Build Clean</h1>
-                                <p>The builders have just finished constructing your house and they left a mess after that? call us, our cleaners will make the place spotless in a very short time!</p>
+                                <h1>装修后清洁</h1>
+                                <p>您还在困扰装修后所留下的一团糟吗？立即联系我们，我们的清洁人员将给您一个干净敞亮的屋子。</p>
                             </div>
                         </li>
                         <li>
@@ -130,10 +117,8 @@
                                 <img src="{{asset('images/newfrontend/ser18.png')}}"/>
                             </div>
                             <div class="article">
-                                <h1>Office Clean</h1>
-                                <p>
-                                    Working in a clean office, you always deserve the best!</p>
-
+                                <h1>办公室清洁</h1>
+                                <p>在干净的办公室里办公，您永远值得拥有最好的。</p>
                             </div>
                         </li>
                         <li>
@@ -141,15 +126,13 @@
                                 <img src="{{asset('images/newfrontend/ser19.png')}}"/>
                             </div>
                             <div class="article">
-                                <h1>Urgent Clean</h1>
-                                <p>
-                                    If you need any urgent clean, call us right now! we will arrange the next available cleaner to come to your place &nbsp;ASAP</p>
-
+                                <h1>紧急情况清洁</h1>
+                                <p>如果您有任何紧急情况的清洁服务，请立即联系我们，我们将安排专业人员给您分担困扰。</p>
                             </div>
                         </li>
                     </ul>
                     <div class="btnbox">
-                        <a href="/getrates">GET RATES</a>
+                        <a href="/zh-cn/getrates">获得报价</a>
                     </div>
                 </div>
             </div>
@@ -161,13 +144,13 @@
                                 <img src="{{asset('images/newfrontend/ser20.png')}}"/>
                             </div>
                             <div class="article">
-                                <h1>Specialist Clean</h1>
-                                <p>Say no to your grimy and smelly oven, we have massive cleaning experience of experience to help you to solve a variety of cleaning issues. Call us now, you deserve the best!</p>
+                                <h1>专业特别清洁项目</h1>
+                                <p>如果您需要做一些非常规的清洁服务，比如大理石上的污渍等等，欢迎联系我们。</p>
                             </div>
                         </li>
                     </ul>
                     <div class="btnbox">
-                        <a href="/getrates">GET RATES</a>
+                        <a href="/zh-cn/getrates">获得报价</a>
                     </div>
                 </div>
                 <div class="row rightcircle">
@@ -185,7 +168,7 @@
                                         <div class="img">
                                             <img src="{{asset('images/newfrontend/ser21.png')}}">
                                         </div>
-                                        <p>Oven clean</p>
+                                        <p>烤箱清洁</p>
                                     </div>
                                 </div>
                             </li>
@@ -195,7 +178,7 @@
                                         <div class="img">
                                             <img src="{{asset('images/newfrontend/ser22.png')}}">
                                         </div>
-                                        <p>Spot clean</p>
+                                        <p>污迹斑点</br>清洁</p>
                                     </div>
                                 </div>
                             </li>
@@ -205,7 +188,7 @@
                                         <div class="img">
                                             <img src="{{asset('images/newfrontend/ser23.png')}}">
                                         </div>
-                                        <p>tile and grouts</br>clean</p>
+                                        <p>水泥地面</br>及缝隙清洁</p>
                                     </div>
                                 </div>
                             </li>
@@ -215,7 +198,7 @@
                                         <div class="img">
                                             <img src="{{asset('images/newfrontend/ser24.png')}}">
                                         </div>
-                                        <p>Rangehood</br>clean</p>
+                                        <p>油烟机</br>清洁</p>
                                     </div>
                                 </div>
                             </li>
@@ -229,7 +212,7 @@
     <!--手机版新增 get rates-->
     <div class="mobgetrates moboprate">
         <div class="mobinnergetrates">
-            <a href="/getrates">GET RATES</a>
+            <a href="/zh-cn/getrates">获得报价</a>
         </div>
     </div>
     <!-- end -->

@@ -1,7 +1,5 @@
-@extends(_get_frontend_layout_path('frontend'))
-@section('seoconfig')
-    <meta name="keywords" content="Cleaning Services Melbourne | maintenance service melbourne | Move in Cleaning melbourne">
-@endsection
+@extends(_get_frontend_layout_path('cnfrontend'))
+
 @section('content')
 
     <div class="infoconbox infoabbox">
@@ -14,10 +12,8 @@
                 <img src="https://www.newbodaclean.com.au/themes/en/images/bg12.png"/>
             </div>
             <div class="mainarticle">
-                <h1>ABOUT US</h1>
-                <p>We are a professional cleaning company servicing the greater Melbourne area, which includes CBD, Docklands, Southbank and entire district of Melbourne.</p>
-
-                <p>Our philosophy is &ldquo; Choose us, Choose to be looked after &rdquo;.</p>
+                <h1>关于我们</h1>
+                <p>新博达清洁公司，我们拥有专业的清洁团队，团队里每个人都拥有丰富的清洁经验，我们的团队长期服务于墨尔本市区的几家中介和银行。我们的清洁服务包括退房清洁、办公室清洁，家庭清洁、蒸气地毯清洁、 地板抛光等</p>
 
             </div>
         </div>
@@ -31,7 +27,7 @@
                         <img src="https://www.newbodaclean.com.au/themes/en/images/ab01.png"/>
                     </div>
                     <div class="txt">
-                        Choosing the right cleaning service for your facility can be a daunting venture. However, New Boda Cleaning Services can tailor a specific site plan aimed at satisfying all of your cleaning concerns and needs.
+                        我们会给您提供最全面和安全的清洁服务
                     </div>
                 </li>
                 <li>
@@ -39,7 +35,7 @@
                         <img src="https://www.newbodaclean.com.au/themes/en/images/ab02.png"/>
                     </div>
                     <div class="txt">
-                        Our team of professional but friendly maids pride themselves in going above and beyond other house cleaning services.
+                        所有的清洁工都有公共责任保险
                     </div>
                 </li>
                 <li>
@@ -47,7 +43,7 @@
                         <img src="https://www.newbodaclean.com.au/themes/en/images/ab03.png"/>
                     </div>
                     <div class="txt">
-                        We provide efficiency with a personal touch, helping simplify your life whilst ensuring your home stays sparkling clean.
+                        所有的清洁工都有无犯罪证明
                     </div>
                 </li>
                 <li>
@@ -55,7 +51,7 @@
                         <img src="https://www.newbodaclean.com.au/themes/en/images/ab04.png"/>
                     </div>
                     <div class="txt">
-                        Our expertise is in both residential and commercial cleaning work. Whether a small home or a large office facility, we have the resources to meet your expectation  with the best quality and attention to detail.
+                        利用客户反馈来持续地提升服务质量
                     </div>
                 </li>
             </ul>
@@ -64,7 +60,7 @@
     <!--手机版新增 get rates-->
     <div class="mobgetrates">
         <div class="mobinnergetrates">
-            <a href="/getrates">GET RATES</a>
+            <a href="/zh-cn/getrates">获得报价</a>
         </div>
     </div>
     <!-- end -->
@@ -73,12 +69,11 @@
             <div class="txt">
                 <div class="cssTable">
                     <div class="cssTd">
-                        <h1>Just A Simple Click To Book Our Service!</h1>
-                        <a href="/getrates">GET RATES</a>
+                        <h1>立即预定我们的清洁服务！</h1>
+                        <a href="/zh-cn/getrates">获得报价</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 @endsection

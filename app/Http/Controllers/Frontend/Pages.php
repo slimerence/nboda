@@ -32,7 +32,7 @@ class Pages extends Controller
     public function index(){
         $page = Page::where('uri','/')->first();
         $this->dataForView['page'] = $page;
-
+        $this->dataForView['menuName'] = 'home';
         $this->dataForView['pageTitle'] = app()->getLocale()=='cn' ? $page->title_cn : $page->title;
         $this->dataForView['metaKeywords'] = $page->seo_keyword;
         $this->dataForView['metaDescription'] = $page->seo_description;

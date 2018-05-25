@@ -1,0 +1,21 @@
+.article-box {
+	float: left;
+	width: 75%;
+	margin: 50px;
+	background-color: #fff;
+	padding: 50px;
+	box-shadow: 0 0 10px 6px #E9E9E9;
+}
+
+.article-box p {
+	color: #000;
+	line-height: 1.6;
+	margin: 10px 0;
+	font-size: 15px;
+}
+
+.article-box h1 {
+	font-size: 25px;
+}
+.article-box h2 {
+	font-size: 20px;

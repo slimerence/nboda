@@ -5,30 +5,30 @@
                 <h1>NAVIGATION:</h1>
                 <ul class="f-ul-nav">
                     <li>
-                        <a href="/" class="current">HOME</a>
+                        <a href="/zh_cn" class="current">首页</a>
                     </li>
                     <li>
-                        <a href="/aboutus">ABOUT US</a>
+                        <a href="/zh_cn/aboutus">关于我们</a>
                     </li>
                     <li>
-                        <a href="/services">SERVICES</a>
+                        <a href="/zh_cn/services">服务</a>
                     </li>
                     <li>
-                        <a href="/gallery">GALLERY</a>
+                        <a href="/zh_cn/gallery">案例</a>
                     </li>
                     <li>
-                        <a href="/hiring">HIRING</a>
+                        <a href="/zh_cn/hiring">招聘</a>
                     </li>
                     <li>
-                        <a href="/getrates">GET RATES</a>
+                        <a href="/zh_cn/getrates">获得报价</a>
                     </li>
                     <li>
-                        <a href="/contactus">CONTACT US</a>
+                        <a href="/zh_cn/contactus">联系我们</a>
                     </li>
                 </ul>
             </div>
             <div class="block f-share">
-                <h1>SOCIAL MEDIA</h1>
+                <h1>社交媒体</h1>
                 <div class="shareiconbox clearfix">
                     <a class="jiathis_button_fb" title='facebook'>
                         <i class="fa fa-facebook"></i>
@@ -45,14 +45,9 @@
                 </div>
             </div>
             <div class="block f-info">
-                <h1>CONTACT US:</h1>
+                <h1>联系我们：</h1>
                 <ul class="f-ul-info">
                     <li>
-                        <div itemscope itemtype="http://schema.org/LocalBusiness">
-                            <a itemprop="url" href="{{url('/')}}"><div itemprop="name"><strong>New Boda Carpet Cleaning and House Cleaning Expert</strong></div>
-                            </a>
-                            <span itemprop="telephone"><a href="tel:(03) 9563 2204">(03) 9563 2204</a></span><br>
-                        </div>
                         <a href="https://goo.gl/maps/kLFiCLmq2e22">
                             <i><img src="{{asset('images/newfrontend/iconmap.png')}}" pagespeed_url_hash="3185554433" onload=""/></i>
                             <p>G4/566 St Kilda Rd, Melbourne VIC 3004</p>
@@ -64,7 +59,7 @@
                         <a href="">
                             <i><img src="{{asset('images/newfrontend/icontell2.png')}}" pagespeed_url_hash="2489735862" onload=""/></i>
                             <div class="newphone">
-                                <span>Phone Number: </span>
+                                <span>联系电话: </span>
                                 <div class="ftell">
                                     <p> 03 9563 2204 (9:00 - 17:00) </p>
                                     <p>0433 588 517  (After hour) </p>
@@ -75,7 +70,7 @@
                     <li>
                         <a href="">
                             <i><img src="{{asset('images/newfrontend/iconevo.png')}}" pagespeed_url_hash="2828488535" onload=""/></i>
-                            <p>Email: info@newboda.com</p>
+                            <p>邮件: info@newboda.com</p>
                         </a>
                     </li>
                 </ul>
@@ -132,7 +127,6 @@
         <div class="row copy">
             <span>Copyright @ <a href="http://nbd.com.au">www.nbd.com.au</a></span>
             <span>nbd cleaning service</span>
-            <span><a href="/related-articles">articles</a>
         </div>
         <div class="row design">
             <span>Designed by <a href="http://legenddigital.com.au/">Legend Webdesign</a></span>
@@ -143,11 +137,11 @@
 <div class="mobfooter">
     <ul class="clearfix">
         <li>
-            <a href="/services">
+            <a href="/zh-cn/services">
                 <div class="fimg">
                     <img src="{{asset('images/newfrontend/fimg01.png')}}" pagespeed_url_hash="1945316654" onload=""/>
                 </div>
-                <p>Services</p>
+                <p>服务</p>
             </a>
         </li>
         <li>
@@ -155,15 +149,15 @@
                 <div class="fimg">
                     <img src="{{asset('images/newfrontend/fimg02.png')}}" pagespeed_url_hash="2239816575" onload=""/>
                 </div>
-                <p>Contact us</p>
+                <p>联系我们</p>
             </a>
         </li>
         <li>
-            <a href="/getrates">
+            <a href="/zh-cn/getrates">
                 <div class="fimg">
                     <img src="{{asset('images/newfrontend/fimg03.png')}}" pagespeed_url_hash="2534316496" onload=""/>
                 </div>
-                <p>Get rates</p>
+                <p>获得报价</p>
             </a>
         </li>
     </ul>
