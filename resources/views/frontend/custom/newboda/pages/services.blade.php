@@ -1,5 +1,7 @@
 @extends(_get_frontend_layout_path('frontend'))
-
+@section('seoconfig')
+    <meta name="keywords" content="end of lease clean | vacate clean melbourne | carpet steam clean">
+@endsection
 @section('content')
 
     <div class="infoconbox infoserbox">

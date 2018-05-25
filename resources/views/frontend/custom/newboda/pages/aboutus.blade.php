@@ -1,5 +1,7 @@
 @extends(_get_frontend_layout_path('frontend'))
-
+@section('seoconfig')
+    <meta name="keywords" content="Cleaning Services Melbourne | maintenance service melbourne | Move in Cleaning melbourne">
+@endsection
 @section('content')
 
     <div class="infoconbox infoabbox">
@@ -78,4 +80,5 @@
             </div>
         </div>
     </div>
+
 @endsection

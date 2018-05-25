@@ -1,5 +1,9 @@
 @extends(_get_frontend_layout_path('frontend'))
 
+@section('seoconfig')
+    <meta name="keywords" content="Melbourne Regular Cleaning | house cleaning services | commercial cleaning">
+@endsection
+
 @section('content')
     <!-- index -->
 

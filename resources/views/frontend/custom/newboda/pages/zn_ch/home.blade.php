@@ -1,9 +1,9 @@
 @extends(_get_frontend_layout_path('cnfrontend'))
-
+@section('seoconfig')
+    <meta name="keywords" content="办公室清洁 | 退房清洁 | 蒸洗地毯清洁">
+@endsection
 @section('content')
     <!-- index -->
-
-
 
     <div class="indexaboutus clearfix">
         <div class="row leftarticle">

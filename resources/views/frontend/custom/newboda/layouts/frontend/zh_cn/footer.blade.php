@@ -127,7 +127,6 @@
         <div class="row copy">
             <span>Copyright @ <a href="http://nbd.com.au">www.nbd.com.au</a></span>
             <span>nbd cleaning service</span>
-            <span><a href="http://www.newbodaclean.com.au/related-articles.html">articles</a>
         </div>
         <div class="row design">
             <span>Designed by <a href="http://legenddigital.com.au/">Legend Webdesign</a></span>
