@@ -39,7 +39,7 @@ class ContactFormSubmitted implements ShouldQueue
     public function handle()
     {
         if($this->lead && $this->siteConfig){
-            Mail::to($this->lead->email)
+            Mail::to($this->siteConfig->email)
                 ->send(new LeadReceivedToAdmin($this->lead, $this->siteConfig));
         }
     }
