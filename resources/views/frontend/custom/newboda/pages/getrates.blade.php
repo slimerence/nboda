@@ -8,8 +8,8 @@
             <img src="{{asset('images/newfrontend/bg25.png')}}">
         </div>
         <div class="wrap clearfix">
-            <form name="getrates" method="post" action="/getrates.php" target="post_frame" id="getrates">
-                <iframe name='post_frame' id="post_frame" style="display:none;" mce_style="display:none;"></iframe>
+            <form name="getrates" method="post" action="{{ url('/get-rates') }}" id="getrates">
+                @csrf
                 <div class="getinnerbox">
                     <div class="topbg">
                         <div class="bgwhite"></div>

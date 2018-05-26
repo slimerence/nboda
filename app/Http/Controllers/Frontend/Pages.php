@@ -6,6 +6,7 @@ use App\Events\Contact\LeadReceived;
 use App\Events\Page\Content\StartLoading;
 use App\Models\Configuration;
 use App\Models\Lead;
+use App\Models\Service;
 use App\Models\Utils\ContentTool;
 use App\Models\Utils\JsonBuilder;
 use App\Models\Widget\Slider;
@@ -108,6 +109,13 @@ class Pages extends Controller
 
         // Redirect to contact us page
         return redirect('/contactus');
+    }
+
+    public function get_rates_handler(Request $request){
+        $data = $request->get('data');
+        if(Service::create($data)){
+            echo 2222;
+        }
     }
 
     /**

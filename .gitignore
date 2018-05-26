@@ -8,6 +8,7 @@
 /public/js/_custom.js
 /public/js/all.js
 /public/js/backend.js
+/public/js/app.js
 /storage/app/public/uploads/*
 /vendor
 /.idea
