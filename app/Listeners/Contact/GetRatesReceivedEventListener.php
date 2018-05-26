@@ -5,7 +5,8 @@ namespace App\Listeners\Contact;
 use Carbon\Carbon;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use App\Jobs\Email\Send\GetRatesReceived;
+use App\Events\Contact\GetRatesReceived;
+use App\Jobs\Email\Send\GetRatesReceived as GetRatesReceivedJob;
 
 class GetRatesReceivedEventListener
 {
@@ -27,7 +28,7 @@ class GetRatesReceivedEventListener
      */
     public function handle(GetRatesReceived $event)
     {
-        $job = new GetRatesReceived($event->service);
+        $job = new GetRatesReceivedJob($event->service);
         $job->delay(Carbon::now()->addSecond());
         dispatch($job);
     }

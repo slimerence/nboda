@@ -39,18 +39,18 @@
                 <div class="rightinfo">
                     <div class="col">
                         <h1>ADDRESS:</h1>
-                        <p>G4/566 St Kilda Rd, Melbourne VIC 3004</p>
+                        <p>{{ $siteConfig->contact_address }}</p>
                     </div>
                     <div class="col">
                         <h1>PHONE CALL:</h1>
                         <div class="newphone">
-                            <p>03 9563 2204 <span>(9:00 - 17:00) </span></p>
-                            <p>0433 588 517 <span> (After hour) </span></p>
+                            <p>{{ $siteConfig->contact_phone }}</p>
+                            <p>{{ $siteConfig->contact_fax }}</p>
                         </div>
                     </div>
                     <div class="col">
                         <h1>EMAIL:</h1>
-                        <p>info@newboda.com</p>
+                        <p>{{ $siteConfig->contact_email }}</p>
                     </div>
                 </div>
             </div>
