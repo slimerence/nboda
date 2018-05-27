@@ -8,15 +8,26 @@
             <img src="{{asset('images/newfrontend/bg25.png')}}">
         </div>
         <div class="wrap clearfix">
-            <form name="getrates" method="post" action="/getrates.php" target="post_frame" id="getrates">
-                <iframe name='post_frame' id="post_frame" style="display:none;" mce_style="display:none;"></iframe>
+            <form name="getrates" method="post" action="{{ url('/get-rates') }}" id="getrates">
+                @csrf
                 <div class="getinnerbox">
                     <div class="topbg">
-                        <div class="bgwhite"></div>
+                        <div class="bgwhite">
+
+                        </div>
                     </div>
                     <div class="getmainbox">
                         <div class="row clearfix">
                             <div class="block">
+                                @if(session('status_get_rates_submit'))
+                                    <?php $status = session('status_get_rates_submit'); ?>
+                                    @if($status=='success')
+                                        <h2 style="color: green;font-size: 17px;">Thank you very much, one of our staff will contact with you very soon!</h2>
+                                    @elseif($status=='fail')
+                                        <h2 style="color: red;font-size: 17px;">System is busy, please try again!</h2>
+                                    @endif
+                                    <br>
+                                @endif
                                 <div class="topstepbox">STEP 1:</div>
                                 <div class="ratesform">
                                     <div class="rightline"></div>

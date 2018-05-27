@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers\Frontend;
 
+use App\Events\Contact\GetRatesReceived;
 use App\Events\Contact\LeadReceived;
 use App\Events\Page\Content\StartLoading;
 use App\Models\Configuration;
 use App\Models\Lead;
+use App\Models\Service;
 use App\Models\Utils\ContentTool;
 use App\Models\Utils\JsonBuilder;
 use App\Models\Widget\Slider;
@@ -108,6 +110,25 @@ class Pages extends Controller
 
         // Redirect to contact us page
         return redirect('/contactus');
+    }
+
+    /**
+     * 处理 Get rates 表单数据的提交
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
+    public function get_rates_handler(Request $request){
+        $data = $request->get('data');
+        $service = new Service();
+        $service->content = json_encode($data);
+        $isHandledSuccessfully = false;
+        if($service->save()){
+            event(new GetRatesReceived($service));
+            $isHandledSuccessfully = true;
+        }
+        // Put result into flash session
+        $request->session()->flash('status_get_rates_submit',$isHandledSuccessfully?'success':'fail');
+        return redirect('/getrates');
     }
 
     /**
