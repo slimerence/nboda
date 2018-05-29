@@ -1,7 +1,10 @@
 @extends(_get_frontend_layout_path('frontend'))
+
+@section('title','End of Lease Clean | Vacate Clean Melbourne | Carpet Steam Clean')
+
 @section('seoconfig')
     <meta name="keywords" content="end of lease clean | vacate clean melbourne | carpet steam clean">
-@endsection
+
 @section('content')
 
     <div class="infoconbox infoserbox">
@@ -18,7 +21,7 @@
                 <p>We are a professional cleaning company servicing the greater Melbourne area, which includes CBD, Docklands, Southbank and entire district of Melbourne.</p>
 
                 <p>Our philosophy is &ldquo; Choose us, Choose to be looked after&rdquo;.</p>
-
+                <p>WORRY FREE:  we don't believe in doing a good job, we believe in doing a great job and thus offer a 100% bond back guarantee. </p>
             </div>
         </div>
     </div>
@@ -233,14 +236,6 @@
         </div>
     </div>
     <!-- end -->
-    <div class="serweblink moboprate">
-        <div class="serinner">
-            <div class="bgtxt">
-                <span>PEST CONTROL:</span>
-                <a href="http://newbodapestcontrol.com.au">www.newbodapestcontrol.com.au</a>
-            </div>
-        </div>
-    </div>
 
 
-@endsection
+@stop

@@ -1,8 +1,10 @@
 @extends(_get_frontend_layout_path('frontend'))
+@section('title','Commercial Cleaning | House Cleaning Services | Melbourne Regular Cleaning')
 
 @section('seoconfig')
     <meta name="keywords" content="Melbourne Regular Cleaning | house cleaning services | commercial cleaning">
-@endsection
+    <meta name="description" content="Melbourne Regular Cleaning | house cleaning services | commercial cleaning"/>
+
 
 @section('content')
     <!-- index -->
@@ -203,4 +205,4 @@
         </div>
     </div>
 
-@endsection
+@stop

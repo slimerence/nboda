@@ -1,4 +1,8 @@
 @extends(_get_frontend_layout_path('cnfrontend'))
+@section('title','办公室清洁 | 退房清洁 | 蒸汽地毯清洁')
+
+@section('seoconfig')
+    <meta name="keywords" content="办公室清洁 | 退房清洁 | 蒸汽地毯清洁">
 
 @section('content')
 
@@ -216,14 +220,6 @@
         </div>
     </div>
     <!-- end -->
-    <div class="serweblink moboprate">
-        <div class="serinner">
-            <div class="bgtxt">
-                <span>PEST CONTROL:</span>
-                <a href="http://newbodapestcontrol.com.au">www.newbodapestcontrol.com.au</a>
-            </div>
-        </div>
-    </div>
 
 
-@endsection
+@stop

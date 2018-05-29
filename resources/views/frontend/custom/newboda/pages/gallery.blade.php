@@ -1,4 +1,8 @@
 @extends(_get_frontend_layout_path('frontend'))
+@section('title','Home Cleaning Melbourne | Bond Cleaning Melbourne')
+
+@section('seoconfig')
+    <meta name="keywords" content="Home Cleaning Melbourne | Bond Cleaning Melbourne">
 
 @section('content')
 
@@ -106,4 +110,4 @@
 
         </div>
     </div>
-@endsection
+@stop
