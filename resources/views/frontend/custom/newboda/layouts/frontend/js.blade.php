@@ -1,13 +1,13 @@
 
 <script type="text/javascript" src="{{url('js/nbdcleaning.js')}}"></script>
-<script type="text/javascript" src="https://www.newbodaclean.com.au/themes/en/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-<script type="text/javascript" src="https://www.newbodaclean.com.au/themes/en/source/jquery.fancybox.js?v=2.1.3"></script>
-<link rel="stylesheet" type="text/css" href="https://www.newbodaclean.com.au/themes/en/source/jquery.fancybox.css?v=2.1.2" media="screen">
-<link rel="stylesheet" type="text/css" href="https://www.newbodaclean.com.au/themes/en/source/helpers/jquery.fancybox-buttons.css?v=1.0.5">
-<script type="text/javascript" src="https://www.newbodaclean.com.au/themes/en/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<link rel="stylesheet" type="text/css" href="https://www.newbodaclean.com.au/themes/en/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7">
-<script type="text/javascript" src="https://www.newbodaclean.com.au/themes/en/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-<script type="text/javascript" src="https://www.newbodaclean.com.au/themes/en/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+<script type="text/javascript" src="{{ url('js/jquery.mousewheel-3.0.6.pack.js') }}"></script>
+<script type="text/javascript" src="{{ url('js/jquery.fancybox.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ url('js/jquery.fancybox.css') }}" media="screen">
+<link rel="stylesheet" type="text/css" href="{{ url('js/jquery.fancybox-buttons.css') }}">
+<script type="text/javascript" src="{{ url('js/jquery.fancybox-buttons.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ url('js/jquery.fancybox-thumbs.css') }}">
+<script type="text/javascript" src="{{ url('js/jquery.fancybox-thumbs.js') }}"></script>
+<script type="text/javascript" src="{{ url('js/jquery.fancybox-media.js') }}"></script>
 <!-- JiaThis Button BEGIN -->
 <script type="text/javascript" src="{{url('js/jia.js')}}" charset="utf-8"></script>
 <!--<script type="text/javascript" src="{{url('js/all.js')}}"></script>
@@ -19,9 +19,9 @@
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KVFZNC');</script>
 <!-- End Google Tag Manager -->
 
-<script type="text/javascript" src="https://www.newbodaclean.com.au/themes/zh-cn/js/datepicker.min.js"></script>
-<script type="text/javascript" src="https://www.newbodaclean.com.au/themes/zh-cn/js/datepicker.en.js"></script>
-<script type="text/javascript" src="https://www.newbodaclean.com.au/themes/zh-cn/js/jquery.droplist.js"></script>
+<script type="text/javascript" src="{{ url('js/datepicker.min.js') }}"></script>
+<script type="text/javascript" src="{{ url('js/datepicker.en.js') }}"></script>
+<script type="text/javascript" src="{{ url('js/jquery.droplist.js') }}"></script>
 
 <script type="text/javascript">var $promo=$('.datepicker-promo');$promo.datepicker({language:'en',dateFormat:'dd/mm/yyyy'})</script>
 

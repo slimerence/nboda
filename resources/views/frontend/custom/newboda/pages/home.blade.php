@@ -3,7 +3,7 @@
 
 @section('seoconfig')
     <meta name="keywords" content="Melbourne Regular Cleaning | house cleaning services | commercial cleaning">
-    <meta name="description" content="Melbourne Regular Cleaning | house cleaning services | commercial cleaning"/>
+    <meta name="description" content="NBD is a professional Commercial Cleaning expert provides thorough Melbourne Regular Cleaning services for both Commercial Cleaning and House Cleaning Services intended to keep your office and house clean and in tip top condition."/>
 
 
 @section('content')
@@ -17,10 +17,13 @@
             <div class="cssTable">
                 <div class="cssTd">
                     <article>
-                        <h1>ABOUT US</h1>
+                        <h1>Melbourne Regular Cleaning Expert | Newboda Clean </h1>
                         <div class="block">
-                            <p> We are a professional cleaning company servicing the greater Melbourne area, which includes CBD, Docklands, Southbank and entire district of Melbourne. </p>
-                            <p style="font-family:'HelveticaBold','Arial'">Our philosophy is “ Choose us, Choose to be looked after”.</p>
+                            <h2>Your Best Partner of </h2>
+                            <h2 class="homeintro">Commercial Cleaning | House Cleaning Services</h2><br/>
+                            <p>Newboda Clean is a professional Commercial Cleaning and House Cleaning Service Provider. NBD provides thorough Regular Cleaning services in Melbourne for both Commercial Cleaning and House Cleaning Services intended to keep your office or your house clean and in tip top condition.
+                        NBD is not just satisfied with doing a good job of Regular Cleaning, we aim for perfection. Our people are trained o detect areas of soiling that others miss. They will see that no area of your houses or offices is overlooked and no spot survives. Covering the entire spectrum of commercial cleaning and house cleaning needs, from cleaning each strand of your places, to cleaning each pore of your tiles, we take pride in our work. Our expert staff will leave your contents with a showroom appearance once they have completed the job.
+                        Our philosophy is “ Choose us, Choose to be looked after”.</p>
                         </div>
                         <a href="/contactus" class="viewmore">
                             <i class="fa fa-angle-down"></i>
