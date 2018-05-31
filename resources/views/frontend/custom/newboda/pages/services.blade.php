@@ -1,10 +1,11 @@
 @extends(_get_frontend_layout_path('frontend'))
 
 @section('title','End of Lease Clean | Vacate Clean Melbourne | Carpet Steam Clean')
-@endsection
+
 @section('seoconfig')
     <meta name="keywords" content="end of lease clean | vacate clean melbourne | carpet steam clean">
-
+    <meta name="description" content="NBD is a professional Cleaning expert provides thorough Melbourne Regular Cleaning services, such as end of lease clean, vacate clean and carpet steam clean service. For more detail about vacate clean service in Melbourne, please contact us: info@newboda.com.">
+@endsection
 @section('content')
 
     <div class="infoconbox infoserbox">
@@ -165,7 +166,8 @@
                             </div>
                             <div class="article">
                                 <h1>Specialist Clean</h1>
-                                <p>Say no to your grimy and smelly oven, we have massive cleaning experience of experience to help you to solve a variety of cleaning issues. Call us now, you deserve the best!</p>
+                                <h2>Oven Cleaning | Spot Cleaning | Tile and Grouts Cleaning | Rangehood Cleaning</h2>
+                                <p>Say no to your grimy and smelly oven, we have massive cleaning experience of experience to help you to solve a variety of cleaning issues. We provide professional oven cleaning, spot cleaning, tile and grouts cleaning, and rangehood cleaning service. Call us now, you deserve the best!</p>
                             </div>
                         </li>
                     </ul>

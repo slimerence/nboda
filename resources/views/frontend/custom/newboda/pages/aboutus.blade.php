@@ -3,6 +3,7 @@
 
 @section('seoconfig')
     <meta name="keywords" content="Cleaning Services Melbourne | maintenance service melbourne | Move in Cleaning melbourne">
+    <meta name="description" content="NBD is a professional Commercial Cleaning expert provides thorough Melbourne Regular Cleaning services for both maintenance service and move in Cleaning Services intended to keep your office and house clean and in tip top condition.">
 @endsection
 @section('content')
 
@@ -16,11 +17,9 @@
                 <img src="{{asset('images/newfrontend/bg12.png') }}"/>
             </div>
             <div class="mainarticle">
-                <h1>ABOUT US</h1>
-                <p>We are a professional cleaning company servicing the greater Melbourne area, which includes CBD, Docklands, Southbank and entire district of Melbourne.</p>
-
-                <p>Our philosophy is &ldquo; Choose us, Choose to be looked after &rdquo;.</p>
-
+                <h1>Melbourne Cleaning Service experts --Newboda</h1>
+                <h2 class="hintro">Maintenance Service and Move in Cleaning service experts</h2>
+                <p>We are a well known company that provides a great variety of cleaning services in Melbourne. As a professional cleaning service and maintenance service supplier, our people are trained to detect areas of soiling that others miss. We owned abundant experience on move in cleaning. As while, we place a priority on your family's health and safety and treat your home with the respect it deserves. Hence, Newboda is your best choice!</p>
             </div>
         </div>
     </div>

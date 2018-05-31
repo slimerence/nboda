@@ -1,6 +1,7 @@
 @extends(_get_frontend_layout_path('cnfrontend'))
 @section('seoconfig')
-    <meta name="keywords" content="办公室清洁 | 退房清洁 | 蒸洗地毯清洁">
+    <meta name="keywords" content="墨尔本办公室清洁 | 墨尔本退房清洁">
+    <meta name="description" content="新博达清洁公司，我们拥有专业的清洁团队，团队里每个人都拥有丰富的清洁经验，我们的团队长期服务于墨尔本市区的几家中介和银行。我们的清洁服务包括退房清洁、办公室清洁，家庭清洁、蒸气地毯清洁、 地板抛光等。">
 @endsection
 @section('content')
     <!-- index -->
@@ -11,9 +12,10 @@
             <div class="cssTable">
                 <div class="cssTd">
                     <article>
-                        <h1>关于我们</h1>
+                        <h1>您的专业清洁好帮手--新博达</h1>
+                        <h2 class="hintro">墨尔本办公室清洁 | 家庭清洁 | 退房清洁</h2>
                         <div class="block">
-                            <p> 新博达清洁公司，我们拥有专业的清洁团队，团队里每个人都拥有丰富的清洁经验，我们的团队长期服务于墨尔本市区的几家中介和银行。我们的清洁服务包括退房清洁、办公室清洁，家庭清洁、蒸气地毯清洁、 地板抛光等。 </p>
+                            <p> 新博达清洁公司，我们拥有专业的清洁团队，团队里每个人都拥有丰富的清洁经验，我们的团队长期服务于墨尔本市区的几家中介和银行。我们的清洁服务包括退房清洁、办公室清洁，家庭清洁、蒸气地毯清洁、 地板抛光等。
                         </div>
                         <a href="/zh-cn/contactus" class="viewmore">
                             <i class="fa fa-angle-down"></i>

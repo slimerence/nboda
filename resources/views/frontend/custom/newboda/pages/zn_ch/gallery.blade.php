@@ -1,5 +1,9 @@
 @extends(_get_frontend_layout_path('cnfrontend'))
-
+@section('seoconfig')
+    <link rel="stylesheet" type="text/css" href="{{ url('js/jquery.fancybox-thumbs.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('js/jquery.fancybox.css') }}" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ url('js/jquery.fancybox-buttons.css') }}">
+@endsection
 @section('content')
 
     <div class="conlistbox gallerylistbox">

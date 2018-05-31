@@ -9,7 +9,7 @@
         <div class="overhiddenbox">
             <div class="righttri"></div>
             <div class="bgleft">
-                <img src="h{{asset('images/newfrontend/bg12.png') }}"/>
+                <img src="{{asset('images/newfrontend/bg12.png') }}"/>
             </div>
             <div class="mainarticle">
                 <h1>关于我们</h1>
