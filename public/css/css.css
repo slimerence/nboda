@@ -137,7 +137,7 @@ margin:auoto
 .absobanimg img{ max-width:100%;}
 .lefttriangle{ position:absolute; left:0; bottom: -1.9rem; width:100%; height: 3.57rem; /* background:url(/../images/newfrontend/bg03.png) no-repeat center; background-size:cover; */ background:#fff; z-index:1; transform: skewY(10deg); -webkit-transform: skewY(10deg); -moz-transform: skewY(10deg); -ms-transform: skewY(10deg); -o-transform: skewY(10deg);}
 
-.conbanner .wrap{ position:relative; height:100%;}
+.conbanner .wrap{ position:relative; height:auto;}
 .Navbox{ float:left; width:1.54rem; text-align:center; background:#c61e1f; padding:0.15rem 0; position:relative; z-index:2; }
 .Navbox:after{ content:"";  width: 0; height: 0; border-right: 1.54rem solid #c61e1f;
     border-bottom: 0.2rem solid transparent; position:absolute; right:0; top:100%;}
@@ -1239,6 +1239,7 @@ input.width4{ width:50%; }
 @media screen and (max-width:768px){
 	html{ font-size:100px;}
 	.wrap{ padding:0;}
+    .conbanner .wrap{ height: 100%; }
 	body{ padding:0.78rem 0 1.46rem; }
 
 	.header .headright .row,
@@ -1311,7 +1312,7 @@ input.width4{ width:50%; }
 	.infoserbox .abrightpos img{ display:inline-block;}
 	.infoserbox .overhiddenbox .bgleft{ z-index:4; width:2.3rem;}
 	.infoserbox{ height:auto;}
-	.infoserbox .overhiddenbox { margin-top: 0.5rem; }
+	.infoserbox .overhiddenbox { margin-top: 0.5rem; height: auto; }
 
 	.serlistbox .block ul li{ float:none; width:100%; padding:0.8rem 0.3rem 0.8rem 2.6rem;}
 	.serlistbox .block ul li .topimg{ position:absolute; left:0.8rem; top:50%; width:1.58rem; transform:translate(0,-50%); -webkit-transform:translate(0,-50%); -moz-transform:translate(0,-50%); -ms-transform:translate(0,-50%); -o-transform:translate(0,-50%);}
