@@ -1,11 +1,9 @@
 @extends(_get_frontend_layout_path('frontend'))
 @section('title','Commercial Cleaning | House Cleaning Services | Melbourne Regular Cleaning')
-
 @section('seoconfig')
     <meta name="keywords" content="Melbourne Regular Cleaning | house cleaning services | commercial cleaning">
     <meta name="description" content="NBD is a professional Commercial Cleaning expert provides thorough Melbourne Regular Cleaning services for both Commercial Cleaning and House Cleaning Services intended to keep your office and house clean and in tip top condition."/>
-
-
+ @endsection
 @section('content')
     <!-- index -->
 

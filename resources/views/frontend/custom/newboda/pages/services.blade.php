@@ -1,7 +1,7 @@
 @extends(_get_frontend_layout_path('frontend'))
 
 @section('title','End of Lease Clean | Vacate Clean Melbourne | Carpet Steam Clean')
-
+@endsection
 @section('seoconfig')
     <meta name="keywords" content="end of lease clean | vacate clean melbourne | carpet steam clean">
 

@@ -2,10 +2,9 @@
 <script type="text/javascript" src="{{url('js/nbdcleaning.js')}}"></script>
 <script type="text/javascript" src="{{ url('js/jquery.mousewheel-3.0.6.pack.js') }}"></script>
 <script type="text/javascript" src="{{ url('js/jquery.fancybox.js') }}"></script>
-<link rel="stylesheet" type="text/css" href="{{ url('js/jquery.fancybox.css') }}" media="screen">
-<link rel="stylesheet" type="text/css" href="{{ url('js/jquery.fancybox-buttons.css') }}">
+
 <script type="text/javascript" src="{{ url('js/jquery.fancybox-buttons.js') }}"></script>
-<link rel="stylesheet" type="text/css" href="{{ url('js/jquery.fancybox-thumbs.css') }}">
+
 <script type="text/javascript" src="{{ url('js/jquery.fancybox-thumbs.js') }}"></script>
 <script type="text/javascript" src="{{ url('js/jquery.fancybox-media.js') }}"></script>
 <!-- JiaThis Button BEGIN -->
