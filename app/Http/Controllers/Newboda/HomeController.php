@@ -9,25 +9,6 @@ use App\Models\Page;
 
 class HomeController extends Controller
 {
-    public function aboutus(){
-        return view('frontend.custom.newboda.pages.aboutus');
-    }
-    public function services(){
-        return view('frontend.custom.newboda.pages.services');
-    }
-    public function hiring(){
-        return view('frontend.custom.newboda.pages.hiring');
-    }
-    public function gallery(){
-        return view('frontend.custom.newboda.pages.gallery');
-    }
-    public function getrates(){
-        return view('frontend.custom.newboda.pages.getrates');
-    }
-    public function contactus(){
-        return view('frontend.custom.newboda.pages.contactus');
-    }
-
     public function view($link){
         //dd('fronted.custom.newboda.pages.'.$link);
         //dd(_get_frontend_theme_path('pages.'.$link));

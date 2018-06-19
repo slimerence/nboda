@@ -11,6 +11,9 @@
             <a href="/services" class="{{ $pageTitle=='services' ? 'current':null }}">SERVICES</a>
         </li>
         <li>
+            <a href="/airbnb" class="{{ $pageTitle=='airbnb' ? 'current':null }}">AIRBNB CLEANING</a>
+        </li>
+        <li>
             <a href="/gallery" class="{{ $pageTitle=='gallery' ? 'current':null }}">GALLERY</a>
         </li>
         <li>
