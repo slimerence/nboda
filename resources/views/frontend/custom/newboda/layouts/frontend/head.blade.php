@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{{ url('/css/css.css')}}"/>
     <link rel="stylesheet" type="text/css" href="{{ url('/css/article.css')}}"/>
     <link rel="stylesheet" type="text/css" href="{{ url('/css/datepicker.css')}}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url('/css/all.css')}}"/>
     <script type="text/javascript" src="{{url('/js/jquery-1.8.2.min.js')}}"></script>
     <script type="text/javascript">function callback(str){var _form=$("#getrates");$('.response').remove();_form.find(':submit').before('<p class="response" style="margin-bottom: 120px; text-align:center; line-height:30px; font-size:16px; color:#F63A39;">'+str+'</p>');if(str=="Message sent! Thank you for your rates, we will contact you soon.")
         {$('.response').remove();_form.find(':submit').before('<p class="response" style="margin-bottom: 120px;text-align:center; line-height:30px; font-size:16px; color:#F63A39; ">'+str+'</p>');_form.find(':input').val('');}}</script>

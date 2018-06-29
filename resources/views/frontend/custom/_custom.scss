@@ -1,0 +1,74 @@
+.airbnb{
+  h2{
+    color: #373737;
+    font-size: 0.45rem;
+    line-height: 0.36rem;
+    font-family: "Microsoft Yahei","Arial";
+  }
+}
+
+.airbnbhk{
+  h3{
+    font-size:0.2rem;
+    font-weight: 200;
+    color:#000;
+  }
+  p{
+    font-size:0.15rem;
+
+  }
+  width:45%;
+  right:20%;
+}
+
+.article {
+  h1{
+    font-size:0.21rem;
+  }
+  h2{
+    font-size: 1.6em;
+    color: #000;
+    margin-bottom:0.5em;
+  }
+}
+@media screen and (min-width: 798px){
+
+.toplft{
+  width: 40%;
+  height:100%;
+  float:left;
+  margin-top:5%;
+  h1{
+    font-size:0.4rem;
+  }
+}
+.topright{
+  height:100%;
+  width: 60%;
+  float:right;
+  margin:auto 0;
+  padding-left:2em;
+  border-left: 2px solid rgb(198,30,31);
+}
+
+}
+@media screen and (max-width: 798px){
+
+  .toplft{
+    h1{
+      font-size:0.35rem;
+      display: inline;
+    }
+  }
+  .topright{
+    margin:auto 0;
+  }
+  .airbnbhk {
+    width: 60%;
+    p{
+      line-height: 1.2em;
+      margin-top: 0.3em;
+      margin-bottom: 1em;
+    }
+  }
+}

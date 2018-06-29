@@ -17,9 +17,8 @@
                 <img src="{{asset('images/newfrontend/bg15.png')}}"/>
             </div>
             <div class="bgleftwhite"></div>
-            <div class="mainarticle">
-                <h1>Our Services</h1>
-
+            <div class="mainarticle airbnb">
+                <h2>Our Services</h2>
             </div>
         </div>
     </div>
@@ -80,10 +79,8 @@
                             </div>
                             <div class="article">
                                 <h1>Linens/Consumables Supply</h1>
-                                <h2 style="font-size: 1.5em;">Hotel grade linens supplied and laundered</h2>
-                                <p>We will help you to save your time from housework, you can easily enjoy the beautiful day with your friends.</p>
-                                <h2 style="font-size: 1.5em;">Hotel grade consumable supplied</h2>
-                                <p>Including all toiletries and kitchen: Shampoo, Shower gel, toilet rolls, tea, coffee, sugar and a lot more</p>
+                                <h2>Hotel grade linens supplied and laundered</h2>
+                                <p>We will help you to save your time from housework. Hotel grade consumable supplied including all toiletries and kitchen.</p>
                             </div>
                         </li>
                         <li>
@@ -92,18 +89,18 @@
                             </div>
                             <div class="article">
                                 <h1>24/7 Shared front desk</h1>
-                                <h2 style="font-size: 1.5em;">Centrally located shop opens 24/7</h2>
+                                <h2>Centrally located shop opens 24/7</h2>
                                 <p>Operates like a real hotel front desk.
                                     Not only handle the keys, but also check guests's ID and collect deposit etc.</p>
                             </div>
                         </li>
                         <li>
                             <div class="topimg">
-                                <img src="{{asset('images/newfrontend/ser16.png')}}"/>
+                                <img src="{{asset('images/newfrontend/mt.png')}}"/>
                             </div>
                             <div class="article">
                                 <h1>Maintenance</h1>
-                                <h2 style="font-size: 1.5em;">General and emergency maintenance</h2>
+                                <h2>General and emergency maintenance</h2>
                                 <p>Own employed professional handyman, always standby</p>
 
                             </div>
