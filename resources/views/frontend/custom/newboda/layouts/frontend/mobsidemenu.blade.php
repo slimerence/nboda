@@ -17,6 +17,9 @@
                     <a href="/services">SERVICES</a>
                 </li>
                 <li>
+                    <a href="/airbnb">SERVICES</a>
+                </li>
+                <li>
                     <a href="/gallery">GALLERY</a>
                 </li>
                 <li>
