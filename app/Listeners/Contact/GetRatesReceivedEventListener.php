@@ -28,7 +28,7 @@ class GetRatesReceivedEventListener
      */
     public function handle(GetRatesReceived $event)
     {
-        $job = new GetRatesReceivedJob($event->service);
+        $job = new GetRatesReceivedJob($event->service,$event->siteConfig);
         $job->delay(Carbon::now()->addSecond());
         dispatch($job);
     }

@@ -9,6 +9,7 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
+use App\Models\Configuration;
 use Log;
 use Mail;
 
@@ -17,27 +18,27 @@ class GetRatesReceived implements ShouldQueue
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
     public $service;
+    public $siteConfig;
 
     /**
-     * Create a new job instance.
-     *
-     * @return void
+     * GetRatesReceived constructor.
+     * @param Service $service
+     * @param Configuration $configuration
      */
-    public function __construct(Service $service)
+    public function __construct(Service $service,Configuration $configuration)
     {
         $this->service = $service;
+        $this->siteConfig = $configuration;
     }
 
     /**
-     * Execute the job.
      *
-     * @return void
      */
     public function handle()
     {
         if($this->service){
             Mail::to($this->siteConfig->contact_email)
-                ->send(new ServiceReceivedToAdmin($this->service));
+                ->send(new ServiceReceivedToAdmin($this->service,$this->siteConfig));
         }
     }
 }
