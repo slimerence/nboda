@@ -36,7 +36,7 @@ class GetRatesReceived implements ShouldQueue
     public function handle()
     {
         if($this->service){
-            Mail::to('info@newboda.com')
+            Mail::to($this->siteConfig->contact_email)
                 ->send(new ServiceReceivedToAdmin($this->service));
         }
     }
