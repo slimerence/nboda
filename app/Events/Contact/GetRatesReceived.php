@@ -17,6 +17,7 @@ class GetRatesReceived
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
     public $service;
+    public $siteConfig;
 
     /**
      * GetRatesReceived constructor.
