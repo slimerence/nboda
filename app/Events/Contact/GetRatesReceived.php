@@ -10,6 +10,7 @@ use Illuminate\Broadcasting\PresenceChannel;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
+use App\Models\Configuration;
 
 class GetRatesReceived
 {
@@ -18,13 +19,14 @@ class GetRatesReceived
     public $service;
 
     /**
-     * Create a new event instance.
-     *
-     * @return void
+     * GetRatesReceived constructor.
+     * @param Service $service
+     * @param Configuration $configuration
      */
-    public function __construct(Service $service)
+    public function __construct(Service $service,Configuration $configuration)
     {
         $this->service = $service;
+        $this->siteConfig = $configuration;
     }
 
     /**
