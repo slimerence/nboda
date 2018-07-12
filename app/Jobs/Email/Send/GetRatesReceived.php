@@ -38,7 +38,7 @@ class GetRatesReceived implements ShouldQueue
     {
         if($this->service){
             Mail::to($this->siteConfig->contact_email)
-                ->send(new ServiceReceivedToAdmin($this->service,$this->siteConfig));
+                ->send(new ServiceReceivedToAdmin($this->service));
         }
     }
 }
