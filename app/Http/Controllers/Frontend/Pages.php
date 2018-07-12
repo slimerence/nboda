@@ -123,7 +123,7 @@ class Pages extends Controller
         $service->content = json_encode($data);
         $isHandledSuccessfully = false;
         if($service->save()){
-            event(new GetRatesReceived($service));
+            event(new GetRatesReceived($service,$this->siteConfig));
             $isHandledSuccessfully = true;
         }
         // Put result into flash session
