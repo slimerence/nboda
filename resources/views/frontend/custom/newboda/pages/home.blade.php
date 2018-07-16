@@ -1,5 +1,5 @@
 @extends(_get_frontend_layout_path('frontend'))
-@section('title','Commercial Cleaning | House Cleaning Services | Melbourne Regular Cleaning')
+@section('title','Commercial Cleaning Services Melbourne | House Cleaning Melbourne ')
 @section('seoconfig')
     <meta name="keywords" content="Melbourne Regular Cleaning | house cleaning services | commercial cleaning">
     <meta name="description" content="NBD is a professional Commercial Cleaning expert provides thorough Melbourne Regular Cleaning services for both Commercial Cleaning and House Cleaning Services intended to keep your office and house clean and in tip top condition."/>
@@ -15,13 +15,15 @@
             <div class="cssTable">
                 <div class="cssTd">
                     <article>
-                        <h1>Melbourne Regular Cleaning Expert | Newboda Clean </h1>
+                        <h1>Commercial Cleaning Services Melbourne</h1>
                         <div class="block">
-                            <h2>Your Best Partner of </h2>
-                            <h2>Commercial Cleaning | House Cleaning Services</h2><br/>
-                            <p>Newboda Clean is a professional Commercial Cleaning and House Cleaning Service Provider. NBD provides thorough Regular Cleaning services in Melbourne for both Commercial Cleaning and House Cleaning Services intended to keep your office or your house clean and in tip top condition.
-                        NBD is not just satisfied with doing a good job of Regular Cleaning, we aim for perfection. Our people are trained o detect areas of soiling that others miss. They will see that no area of your houses or offices is overlooked and no spot survives. Covering the entire spectrum of commercial cleaning and house cleaning needs, from cleaning each strand of your places, to cleaning each pore of your tiles, we take pride in our work. Our expert staff will leave your contents with a showroom appearance once they have completed the job.
-                        Our philosophy is “ Choose us, Choose to be looked after”.</p>
+                            <h2 style="font-weight: bold; margin: 1em 0; font-size: 16px;">Australian Owned Commercial Cleaning Services and House Cleaning Expert In Melbourne | Newboda</h2>
+                            <p>Newboda is an Australian owned company that you can trust for all of your commercial cleaning services and House Cleaning needs in Melbourne. As a professional Commercial Cleaning and House Cleaning Service Provider, Newboda is committed to achieving excellence within the cleaning service industry because Newboda believes a safe and clean working environment is the basic condition that every company or family deserves.</p>
+                            <h2 style="font-weight: bold; margin: 1em 0; font-size: 16px;">Your Best Choice of Commercial Cleaning Services and House Cleaning Expert In Melbourne | Newboda</h2>
+                            <p>NBD provides Commercial Cleaning Services and House Cleaning Services intended to keep your office and your house clean and in tip-top condition.<br>
+                                NBD is not just satisfied with doing simple cleaning service, NBD aims to build an authentic and rewarding relationship with you, ensuring that you consider us a part of their team, will have a long-lasting cooperation with us.<br/>
+                                NBD cleaners are well trained to detect areas of soiling that others miss. They will see that no area of your houses or offices is overlooked and no spot survives. Covering the entire spectrum of commercial cleaning and house cleaning needs, from cleaning each strand of your places, to cleaning each pore of your tiles, we take pride in our work. Our expert staff will leave your contents with a showroom appearance once they have completed the job. Our philosophy is “ Choose us, Choose to be looked after”.
+                            </p>
                         </div>
                         <a href="/contactus" class="viewmore">
                             <i class="fa fa-angle-down"></i>
