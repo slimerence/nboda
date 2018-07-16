@@ -55,7 +55,7 @@
     <div class="indexservice">
         <div class="wrap clearfix">
             <div class="contopTit">
-                <h1>OUR SERVICES</h1>
+                <h3 style="font-size: 25px;margin: 0 0 10px 0;color: #000;font-weight: bold;">OUR SERVICES</h3>
                 <p>We provide the safest and best cleaning service in Melbourne</p>
             </div>
             <div class="serlistbox">
@@ -150,7 +150,7 @@
         <div class="wrap">
             <div class="choosebox">
                 <div class="contopTit">
-                    <h1>WHY CHOOSE US?</h1>
+                    <h3 style="font-size: 25px;margin: 0 0 10px 0;color: #000;font-weight: bold;">WHY CHOOSE US?</h3>
                     <p>We provide the safest and best cleaning service in Melbourne</p>
                 </div>
                 <div class="whylistbox">

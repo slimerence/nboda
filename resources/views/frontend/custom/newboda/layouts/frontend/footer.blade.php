@@ -1,8 +1,16 @@
+<style>
+    .footer h3{
+        font-size: 20px;
+        margin: 0 0 10px 0;
+        color: #fff;
+        font-weight: bold;
+    }
+</style>
 <div class="footer">
     <div class="redbgtop">
         <div class="wrap clearfix">
             <div class="block f-nav">
-                <h1>NAVIGATION:</h1>
+                <h3>NAVIGATION:</h3>
                 <ul class="f-ul-nav">
                     <li>
                         <a href="/" class="current">HOME</a>
@@ -28,7 +36,7 @@
                 </ul>
             </div>
             <div class="block f-share">
-                <h1>SOCIAL MEDIA</h1>
+                <h3>SOCIAL MEDIA</h3>
                 <div class="shareiconbox clearfix">
                     <a class="jiathis_button_fb" title='facebook'>
                         <i class="fa fa-facebook"></i>
@@ -45,7 +53,7 @@
                 </div>
             </div>
             <div class="block f-info">
-                <h1>CONTACT US:</h1>
+                <h3>CONTACT US:</h3>
                 <ul class="f-ul-info">
                     <li>
                         <div itemscope itemtype="http://schema.org/LocalBusiness">
