@@ -16,12 +16,12 @@
     <script type="text/javascript">function callback(str){var _form=$("#getrates");$('.response').remove();_form.find(':submit').before('<p class="response" style="margin-bottom: 120px; text-align:center; line-height:30px; font-size:16px; color:#F63A39;">'+str+'</p>');if(str=="Message sent! Thank you for your rates, we will contact you soon.")
         {$('.response').remove();_form.find(':submit').before('<p class="response" style="margin-bottom: 120px;text-align:center; line-height:30px; font-size:16px; color:#F63A39; ">'+str+'</p>');_form.find(':input').val('');}}</script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122643576-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122691291-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-122643576-1');
+        gtag('config', 'UA-122691291-1');
     </script>
 </head>
