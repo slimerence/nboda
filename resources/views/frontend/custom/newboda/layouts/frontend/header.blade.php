@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="row btnrates">
-                    <a href="/getrates">GET RATES</a>
+                    <a href="/getrates" class="w-100">GET RATES</a>
                 </div>
             </div>
         </div>

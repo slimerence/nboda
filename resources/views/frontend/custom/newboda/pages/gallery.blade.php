@@ -3,9 +3,6 @@
 
 @section('seoconfig')
     <meta name="keywords" content="Home Cleaning Melbourne | Bond Cleaning Melbourne">
-    <link rel="stylesheet" type="text/css" href="{{ url('js/jquery.fancybox-thumbs.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url('js/jquery.fancybox.css') }}" media="screen">
-    <link rel="stylesheet" type="text/css" href="{{ url('js/jquery.fancybox-buttons.css') }}">
     @endsection
 @section('content')
 
@@ -21,7 +18,8 @@
             <!-- end -->
             <div class="garowlist">
                 <div class="row">
-                    <a class="fancybox" rel="group" href="{{asset('images/newfrontend/20160713085540308813.jpg')}}">
+                    <div class="col-lg-12">
+                    <a class="image-popup-vertical-fit w-100" rel="group" href="{{asset('images/newfrontend/20160713085540308813.jpg')}}">
                         <img src="{{asset('images/newfrontend/20160713085540308813.jpg')}}" pagespeed_url_hash="2359723038" onload="">
                         <div class="mask">
                             <i>
@@ -29,11 +27,12 @@
                             </i>
                         </div>
                     </a>
+                    </div>
                 </div>
                 <div class="row clearfix">
-                    <div class="left">
+                    <div class="col-lg-6">
                         <div class="block">
-                            <a class="fancybox" rel="group" href="{{asset('images/newfrontend/20160713085540105102.jpg')}}">
+                            <a class="image-popup-vertical-fit w-100" rel="group" href="{{asset('images/newfrontend/20160713085540105102.jpg')}}">
                                 <img src="{{asset('images/newfrontend/20160713085540105102.jpg')}}" pagespeed_url_hash="2161360004" onload="">
                                 <div class="mask">
                                     <i>
@@ -42,8 +41,8 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="block">
-                            <a class="fancybox" rel="group" href="{{asset('images/newfrontend/20160713085540228443.jpg')}}">
+                        <div class="block gallery-mt">
+                            <a class="image-popup-vertical-fit w-100" rel="group" href="{{asset('images/newfrontend/20160713085540228443.jpg')}}">
                                 <img src="{{asset('images/newfrontend/20160713085540228443.jpg')}}" pagespeed_url_hash="179626226" onload="">
                                 <div class="mask">
                                     <i>
@@ -53,8 +52,8 @@
                             </a>
                         </div>
                     </div>
-                    <div class="right">
-                        <a class="fancybox" rel="group" href="{{asset('images/newfrontend/20160713085540184582.jpg')}}">
+                    <div class="col-lg-6">
+                        <a class="image-popup-vertical-fit w-100" rel="group" href="{{asset('images/newfrontend/20160713085540184582.jpg')}}">
                             <img src="{{asset('images/newfrontend/20160713085540184582.jpg')}}" pagespeed_url_hash="2162488445" onload="">
                             <div class="mask">
                                 <i>
@@ -65,7 +64,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <a class="fancybox" rel="group" href="{{asset('images/newfrontend/20160713085923102711.jpg')}}">
+                    <div class="col-lg-12">
+                    <a class="image-popup-vertical-fit w-100" rel="group" href="{{asset('images/newfrontend/20160713085923102711.jpg')}}">
                         <img src="{{asset('images/newfrontend/20160713085923102711.jpg')}}" pagespeed_url_hash="977749604" onload="">
                         <div class="mask">
                             <i>
@@ -73,11 +73,12 @@
                             </i>
                         </div>
                     </a>
+                    </div>
                 </div>
                 <div class="row clearfix">
-                    <div class="left">
+                    <div class="col-lg-6">
                         <div class="block">
-                            <a class="fancybox" rel="group" href="{{asset('images/newfrontend/20160713085923125971.jpg')}}">
+                            <a class="image-popup-vertical-fit w-100" rel="group" href="{{asset('images/newfrontend/20160713085923125971.jpg')}}">
                                 <img src="{{asset('images/newfrontend/20160713085923125971.jpg')}}" pagespeed_url_hash="555355691" onload="">
                                 <div class="mask">
                                     <i>
@@ -86,8 +87,8 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="block">
-                            <a class="fancybox" rel="group" href="{{asset('images/newfrontend/20160713085923100432.jpg')}}">
+                        <div class="block gallery-mt">
+                            <a class="image-popup-vertical-fit w-100" rel="group" href="{{asset('images/newfrontend/20160713085923100432.jpg')}}">
                                 <img src="{{asset('images/newfrontend/20160713085923100432.jpg')}}" pagespeed_url_hash="905592826" onload="">
                                 <div class="mask">
                                     <i>
@@ -97,8 +98,8 @@
                             </a>
                         </div>
                     </div>
-                    <div class="right">
-                        <a class="fancybox" rel="group" href="{{asset('images/newfrontend/20160713085923111851.jpg')}}">
+                    <div class="col-lg-6">
+                        <a class="image-popup-vertical-fit w-100" rel="group" href="{{asset('images/newfrontend/20160713085923111851.jpg')}}">
                             <img src="{{asset('images/newfrontend/20160713085923111851.jpg')}}" pagespeed_url_hash="2125895071" onload="">
                             <div class="mask">
                                 <i>

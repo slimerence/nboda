@@ -1,16 +1,12 @@
-
-<script type="text/javascript" src="{{url('js/nbdcleaning.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="{{ url('js/nbdcleaning.js')}}"></script>
 <script type="text/javascript" src="{{ url('js/jquery.mousewheel-3.0.6.pack.js') }}"></script>
-<script type="text/javascript" src="{{ url('js/jquery.fancybox.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
-<script type="text/javascript" src="{{ url('js/jquery.fancybox-buttons.js') }}"></script>
-
-<script type="text/javascript" src="{{ url('js/jquery.fancybox-thumbs.js') }}"></script>
-<script type="text/javascript" src="{{ url('js/jquery.fancybox-media.js') }}"></script>
 <!-- JiaThis Button BEGIN -->
 <script type="text/javascript" src="{{url('js/jia.js')}}" charset="utf-8"></script>
-<!--<script type="text/javascript" src="{{url('js/all.js')}}"></script>
- JiaThis Button END -->
 
 <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-82207807-1','auto');ga('send','pageview');</script>
 <!-- Google Tag Manager -->
@@ -24,7 +20,17 @@
 
 <script type="text/javascript">var $promo=$('.datepicker-promo');$promo.datepicker({language:'en',dateFormat:'dd/mm/yyyy'})</script>
 
-<!-- Start of LiveChat (www.livechatinc.com) code -->
-<script type="text/javascript">window.__lc=window.__lc||{};window.__lc.license=8264571;(function(){var lc=document.createElement('script');lc.type='text/javascript';lc.async=true;lc.src=('https:'==document.location.protocol?'https://':'http://')+'cdn.livechatinc.com/tracking.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(lc,s);})();</script>
-<!-- End of LiveChat code -->
-<script type="text/javascript">$(document).ready(function(){$(".fancybox").fancybox();});</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        if ($('.image-popup-vertical-fit').length>0){
+            $('.image-popup-vertical-fit').magnificPopup({
+                type: 'image',
+                closeOnContentClick: true,
+                mainClass: 'mfp-img-mobile',
+                image: {
+                    verticalFit: true
+                }
+            });
+        }
+    });
+</script>

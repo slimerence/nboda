@@ -47,65 +47,6 @@ margin:auoto
 
 /* fonts*/
 
-@font-face {
-    font-family: 'SourceSansProSemibold';
-    src: url('../fonts/SourceSansProSemibold.eot');
-    src: url('../fonts/SourceSansProSemibold.eot') format('embedded-opentype'),
-         url('../fonts/SourceSansProSemibold.woff2') format('woff2'),
-         url('../fonts/SourceSansProSemibold.woff') format('woff'),
-         url('../fonts/SourceSansProSemibold.ttf') format('truetype'),
-         url('../fonts/SourceSansProSemibold.svg#SourceSansProSemibold') format('svg');
-}
-
-@font-face {
-    font-family: 'HelveticaBold';
-    src: url('../fonts/HelveticaBold.eot');
-    src: url('../fonts/HelveticaBold.eot') format('embedded-opentype'),
-         url('../fonts/HelveticaBold.woff2') format('woff2'),
-         url('../fonts/HelveticaBold.woff') format('woff'),
-         url('../fonts/HelveticaBold.ttf') format('truetype'),
-         url('../fonts/HelveticaBold.svg#HelveticaBold') format('svg');
-}
-
-@font-face {
-    font-family: 'HelveticaLight';
-    src: url('../fonts/HelveticaLight.eot');
-    src: url('../fonts/HelveticaLight.eot') format('embedded-opentype'),
-         url('../fonts/HelveticaLight.woff2') format('woff2'),
-         url('../fonts/HelveticaLight.woff') format('woff'),
-         url('../fonts/HelveticaLight.ttf') format('truetype'),
-         url('../fonts/HelveticaLight.svg#HelveticaLight') format('svg');
-}
-
-@font-face {
-    font-family: 'HelveticaOblique';
-    src: url('../fonts/HelveticaOblique.eot');
-    src: url('../fonts/HelveticaOblique.eot') format('embedded-opentype'),
-         url('../fonts/HelveticaOblique.woff2') format('woff2'),
-         url('../fonts/HelveticaOblique.woff') format('woff'),
-         url('../fonts/HelveticaOblique.ttf') format('truetype'),
-         url('../fonts/HelveticaOblique.svg#HelveticaOblique') format('svg');
-}
-
-@font-face {
-    font-family: 'Helvetica';
-    src: url('../fonts/Helvetica.eot');
-    src: url('../fonts/Helvetica.eot') format('embedded-opentype'),
-         url('../fonts/Helvetica.woff2') format('woff2'),
-         url('../fonts/Helvetica.woff') format('woff'),
-         url('../fonts/Helvetica.ttf') format('truetype'),
-         url('../fonts/Helvetica.svg#Helvetica') format('svg');
-}
-
-@font-face {
-    font-family: 'scalasans';
-    src: url('../fonts/scalasans.eot');
-    src: url('../fonts/scalasans.eot') format('embedded-opentype'),
-         url('../fonts/scalasans.woff2') format('woff2'),
-         url('../fonts/scalasans.woff') format('woff'),
-         url('../fonts/scalasans.ttf') format('truetype'),
-         url('../fonts/scalasans.svg#scalasans') format('svg');
-}
 
 /* header */
 .header{ width:100%; height:auto; position:relative; }

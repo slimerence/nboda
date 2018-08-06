@@ -10,7 +10,6 @@
 
         <div class="logobox">
             <a href="/">
-
                 <img src="{{asset('images/newfrontend/logo.png')}}">
             </a>
         </div>
@@ -39,7 +38,7 @@
                     </div>
                 </div>
                 <div class="row btnrates">
-                    <a href="/getrates">获得报价</a>
+                    <a href="/getrates" class="w-100">获得报价</a>
                 </div>
             </div>
         </div>
