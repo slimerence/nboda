@@ -1,3 +1,5 @@
+$theme-color:#c9251f;
+
 .airbnb{
   h2{
     color: #373737;
@@ -75,4 +77,48 @@
 
 .gallery-mt{
   margin-top: 0.44rem;
+}
+
+.footer{
+  padding:60px 0 80px 0;
+  background-color: rgb(246,246,246);
+  h3{
+    color: #3e3c3d;
+    font-size: 26px;
+    margin-bottom: 0.5em;
+  }
+  .footer-contact li{
+    i{
+      color:$theme-color;
+      position: absolute;
+      left: -5px;
+      font-size: 20px;
+    }
+    font-size:18px;
+    padding-left: 30px;
+    margin:0.5em 0 1em 0;
+  }
+  .footer-widget{
+    position: relative;
+    height: 100%;
+    li{
+      font-size:14px;
+      margin:0.5em 0 0.3em 0;
+    }
+  }
+}
+
+.color-bg{
+  background-color: $theme-color;
+  color:rgb(201,37,31);
+}
+
+#footer-color{
+  padding:10px 0;
+  width: 100%;
+  i{
+    color:#fff;
+    font-size:50px;
+    margin:0 40px;
+  }
 }
