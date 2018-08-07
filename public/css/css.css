@@ -4,7 +4,6 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legen
 body,button,input,select,textarea { font-family:"Roboto-Light",Tahoma,Arial,sans-serif; word-wrap:break-word; }
 textarea {resize:none;}
 h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal; }
-a,label{blr:expression_r(this.onFocus=this.blur());outline:none;}
 address,cite,dfn,em,var{font-style:normal}
 ul,ol{list-style:none}
 fieldset,img{border:0;vertical-align:bottom;}
@@ -24,7 +23,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color:#7
 input:-ms-input-placeholder, textarea:-ms-input-placeholder { color:#7a7a7a; }
 input::-moz-placeholder, textarea::-moz-placeholder { color:#7a7a7a; }
 input:-moz-placeholder, textarea:-moz-placeholder { color:#7a7a7a; }
-input[type="checkbox"] { width:14px; height:14px; border:1px solid #ddd; background:#fff url(_blank); }
+input[type="checkbox"] { width:14px; height:14px; border:1px solid #ddd; background:#fff; }
 
 .hidden{display:none;}
 .invisible{visibility:hidden;}
@@ -80,8 +79,7 @@ margin:auoto
 
 .conbanner .wrap{ position:relative; height:auto;}
 .Navbox{ float:left; width:1.54rem; text-align:center; background:#c61e1f; padding:0.15rem 0; position:relative; z-index:2; }
-.Navbox:after{ content:"";  width: 0; height: 0; border-right: 1.54rem solid #c61e1f;
-    border-bottom: 0.2rem solid transparent; position:absolute; right:0; top:100%;}
+
 .Navbox ul{ width:100%; height:auto;}
 .Navbox ul li{ width:100%; height:0.48rem; margin-bottom:0.1rem;}
 .Navbox ul li a{ display:block; color:#fff; font-size:0.15rem; line-height:0.48rem; font-family:"Microsoft Yahei","Arial"; position:relative; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; transition: all 0.2s ease-out;}
@@ -767,8 +765,8 @@ input.width4{ width:50%; }
 .ball-triangle-path > div:nth-child(1) {
   -webkit-animation-name: ball-triangle-path-1;
   animation-name: ball-triangle-path-1;
-  -webkit-animation-delay: 0;
-  animation-delay: 0;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-timing-function: ease-in-out;
@@ -779,8 +777,8 @@ input.width4{ width:50%; }
 .ball-triangle-path > div:nth-child(2) {
   -webkit-animation-name: ball-triangle-path-2;
   animation-name: ball-triangle-path-2;
-  -webkit-animation-delay: 0;
-  animation-delay: 0;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-timing-function: ease-in-out;
@@ -791,8 +789,8 @@ input.width4{ width:50%; }
 .ball-triangle-path > div:nth-child(3) {
   -webkit-animation-name: ball-triangle-path-3;
   animation-name: ball-triangle-path-3;
-  -webkit-animation-delay: 0;
-  animation-delay: 0;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-timing-function: ease-in-out;
@@ -950,8 +948,8 @@ input.width4{ width:50%; }
 .ball-triangle-path > div:nth-child(1) {
   -webkit-animation-name: ball-triangle-path-1;
   animation-name: ball-triangle-path-1;
-  -webkit-animation-delay: 0;
-  animation-delay: 0;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-timing-function: ease-in-out;
@@ -962,8 +960,8 @@ input.width4{ width:50%; }
 .ball-triangle-path > div:nth-child(2) {
   -webkit-animation-name: ball-triangle-path-2;
   animation-name: ball-triangle-path-2;
-  -webkit-animation-delay: 0;
-  animation-delay: 0;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-timing-function: ease-in-out;
@@ -974,8 +972,8 @@ input.width4{ width:50%; }
 .ball-triangle-path > div:nth-child(3) {
   -webkit-animation-name: ball-triangle-path-3;
   animation-name: ball-triangle-path-3;
-  -webkit-animation-delay: 0;
-  animation-delay: 0;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-timing-function: ease-in-out;
