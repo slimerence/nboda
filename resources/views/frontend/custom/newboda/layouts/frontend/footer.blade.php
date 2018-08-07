@@ -1,9 +1,9 @@
 
 <section class="color-bg text-center reblock" id="footer-color">
-    <i class="fa fa-facebook-official" aria-hidden="true"></i>
-    <i class="fa fa-instagram" aria-hidden="true"></i>
-    <i class="fa fa-twitter" aria-hidden="true"></i>
-    <i class="fa fa-weixin" aria-hidden="true"></i>
+    <a href="{{$siteConfig->facebook }}" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+    <a href="{{$siteConfig->instagram }}" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="{{$siteConfig->twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="{{ url('/contact-us') }}"><i class="fa fa-weixin" aria-hidden="true"></i></a>
 </section>
 
 <footer class="footer">
@@ -77,7 +77,7 @@
                                 <li>Richmond</li>
                                 <li>South Yarra</li>
                                 <li>South Melbourne</li>
-                                <li><strong>More Area</strong></li>
+                                <li><a href="{{ url('/contact-us') }}"><strong>More Area</strong></a></li>
                             </ul>
                         </div>
                     </div>
