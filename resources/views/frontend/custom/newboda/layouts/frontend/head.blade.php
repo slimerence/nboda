@@ -2,6 +2,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1">
+    <meta name="google-site-verification" content="psWMRhWIzkAd4l1Q0ODZEW6jNZV0MHm6zcEho9Q9C78" />
     <title>@yield('title','New Boda Cleaning - Carpet Cleaning & House Cleaning Melbourne VIC 3004')</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     @yield('seoconfig')

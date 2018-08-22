@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 
-@include(_get_frontend_layout_path('frontend.zh_cn.head'))
+@include(_get_frontend_layout_path('frontend.head'))
 <body>
 
 @include(_get_frontend_layout_path('frontend.loading'))
