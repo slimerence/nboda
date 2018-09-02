@@ -20,7 +20,7 @@
                     {{ csrf_field() }}
                     <div class="row">
                         <div class="col-md-6">
-                            <select name="quick[service]">
+                            <select name="quick[service]" required>
                                 <option value="" selected disabled="disabled">SELECT A SERVICE</option>
                                 <option value="End of Lease Clean">End of Lease Clean</option>
                                 <option value="High Pressure Water Clean">High Pressure Water Clean</option>
@@ -35,7 +35,7 @@
                             </select>
                         </div>
                         <div class="col-md-3">
-                            <select name="quick[bedroom]">
+                            <select name="quick[bedroom]" required>
                                 <option value="" disabled selected>BEDROOMS</option>
                                 <option value="Studio">Studio</option>
                                 <option value="1 Bedroom">1</option>
@@ -46,7 +46,7 @@
                             </select>
                         </div>
                         <div class="col-md-3">
-                            <select name="quick[bathroom]" >
+                            <select name="quick[bathroom]" required>
                                 <option value="" disabled selected>BATHROOMS</option>
                                 <option value="1 Bathroom">1</option>
                                 <option value="2 Bathroom">2</option>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-3">
-                            <select name="quick[property]" >
+                            <select name="quick[property]" required>
                                 <option value="" disabled selected>PROPERTY TYPES</option>
                                 <option value="House">House</option>
                                 <option value="Apartment & Unit">Apartment & Unit</option>
@@ -67,10 +67,10 @@
                             </select>
                         </div>
                         <div class="col-md-2">
-                            <input type="text" placeholder="POSTCODE" name="quick[postcode]">
+                            <input type="text" placeholder="POSTCODE" name="quick[postcode]" required>
                         </div>
                         <div class="col-md-4">
-                            <input type="text" placeholder="CONTACT INFO (EMAIL/PHONE)" name="quick[contact]">
+                            <input type="text" placeholder="CONTACT INFO (EMAIL/PHONE)" name="quick[contact]" required>
                         </div>
                         <div class="col-md-3">
                             <button id="airbtnConfirmbtn" type="submit">QUICK QUOTE</button>

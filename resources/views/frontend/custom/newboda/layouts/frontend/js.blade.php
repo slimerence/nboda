@@ -32,10 +32,11 @@
                 }
             });
         }
-        if($('#airbtnConfirmbtn').length>0){
-            $("#airbtnConfirmbtn").on("submit", function(){
-                $("#pageloader").fadeIn();
+        if($('.airbnb-form').length>0){
+            $('.airbnb-form').on('submit', function(){
+                $('.loading').fadeIn();
             });
         }
+
     });
 </script>

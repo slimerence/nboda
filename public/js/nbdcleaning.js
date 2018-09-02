@@ -37,5 +37,6 @@ $(document).ready(function(){
 		$('.mobdownmore').addClass('on');
 		$('.moboprate').addClass('on');
 		$('.serlistbox .block ul li').addClass('on');
-	}); 
+	});
+
 });

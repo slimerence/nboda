@@ -16,6 +16,9 @@ use App\Http\Controllers\Controller;
 use App\Models\Page;
 use App\Models\Widget\Block;
 use App\Models\Catalog\Category;
+use App\Models\QuickService;
+use App\Mail\QuickServiceToAdmin;
+use Illuminate\Support\Facades\Mail;
 
 class Pages extends Controller
 {
@@ -133,7 +136,12 @@ class Pages extends Controller
 
     public function quick_form_handler(Request $request){
         $data = $request->get('quick');
-        dd($data);
+        if($quick = QuickService::Persistent($data)){
+            Mail::to($this->siteConfig->contact_email)
+                ->send(new QuickServiceToAdmin($quick));
+            return back()->with('success','We have received your request!');
+        }
+        return back()->with('error','Something wrong with the server!');
     }
     /**
      * Terms 页面
