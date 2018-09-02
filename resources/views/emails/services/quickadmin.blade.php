@@ -8,6 +8,6 @@
     Postcode:{{ $quickService->postcode }}
     Contact:{{ $quickService->contact }}
 
-    Regards!<br>
+    Regards!
     Newboda Clean Admin
 @endcomponent
