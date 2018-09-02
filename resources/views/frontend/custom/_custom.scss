@@ -1,5 +1,5 @@
 $theme-color:#c9251f;
-
+$theme-light:#bb4131;
 .airbnb{
   h2{
     color: #373737;
@@ -113,6 +113,9 @@ $theme-color:#c9251f;
 .color-bg{
   background-color: $theme-color;
 }
+.bg-clt{
+  background-color: $theme-light;
+}
 .color-normal{
   color:$theme-color;
 }
@@ -137,6 +140,7 @@ $theme-color:#c9251f;
     }
     p{
       font-size:18px;
+      line-height: 2em;
     }
     padding:0 1em;
     margin-bottom:2em;
@@ -168,7 +172,11 @@ $theme-color:#c9251f;
     }
   }
 }
-
+@media screen and (max-width: 768px){
+  #main {
+    padding: 0;
+  }
+}
 #main{
     padding: 0 1rem;
     margin: 3em 1px;
@@ -223,4 +231,107 @@ $theme-color:#c9251f;
   max-width:300px;
   text-align:center;
   margin:5em 0 2em 0;
+}
+#pageloader
+{
+  background: rgba( 255, 255, 255, 0.8 );
+  display: none;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+#pageloader img
+{
+  left: 50%;
+  margin-left: -32px;
+  margin-top: -32px;
+  position: absolute;
+  top: 50%;
+}
+
+.faq-item{
+  margin-bottom: 1.5em;
+  h3{
+    background-color: #bb4131;
+    padding: 0.2em 5em 0.2em 1em;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 0.8em;
+    margin-top: 0.5em;
+    -webkit-transform:    skewX(-10deg);
+    transform:    skewX(-10deg);
+  }
+  p,a{
+    font-size:18px;
+    line-height: 2em;
+  }
+  a{
+    color: $theme-color;
+    text-decoration:underline;
+  }
+}
+.airbnb-top{
+  @media screen and (min-width: 798px) {
+    margin-top: 3em;
+  }
+  h2{
+    &:after{
+      content: '';
+      width: 2em;
+      background-color: $theme-color;
+      height: 0.7em;
+      margin-left: 0.5em;
+      display: inline-block
+    }
+  }
+  p{
+    font-size:20px;
+    line-height:1.6em;
+    margin-bottom: 0.6em;
+  }
+  a{
+    color: $theme-color;
+    text-decoration:underline;
+  }
+}
+
+.airbnb-form{
+  select,input{
+    border: 2px solid #e3e3e3;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 0.3em 0.8em;
+    width:100%;
+    height: 100%;
+  }
+  .row{
+    margin-top:0.6em;
+  }
+}
+
+#airbtnConfirmbtn{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e3e3e3;
+  background-color: $theme-light;
+  color: white;
+  font-size: 18px;
+}
+
+.trapezoid {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 100px;
+  height: 0;
+  border: 50px solid rgba(0,0,0,0);
+  border-top: 0 solid;
+  border-bottom: 100px solid #1abc9c;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
 }

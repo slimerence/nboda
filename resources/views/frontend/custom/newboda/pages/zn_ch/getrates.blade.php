@@ -126,7 +126,7 @@
                                 </div>
                                 <a class="btn-select" id="btn_select">
                                     <select name="data[type]" class="ahibw">
-                                        <option value="">请选择*</option>
+                                        <option value="" selected>请选择*</option>
                                         <option value="End of Lease Clean">退租清洁服务</option>
                                         <option value="High Pressure Water Clean">高压水枪清洁</option>
                                         <option value="One-off Clean">一次性清洁</option>

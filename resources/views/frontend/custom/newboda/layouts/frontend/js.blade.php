@@ -32,5 +32,10 @@
                 }
             });
         }
+        if($('#airbtnConfirmbtn').length>0){
+            $("#airbtnConfirmbtn").on("submit", function(){
+                $("#pageloader").fadeIn();
+            });
+        }
     });
 </script>

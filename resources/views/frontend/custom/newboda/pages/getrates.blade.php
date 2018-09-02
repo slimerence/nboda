@@ -136,7 +136,7 @@
                                     </div>
                                     <a class="btn-select" id="btn_select">
                                         <select name="data[type]" class="ahibw">
-                                            <option value="">Please Select*</option>
+                                            <option value="" selected>Please Select*</option>
                                             <option value="End of Lease Clean">End of Lease Clean</option>
                                             <option value="High Pressure Water Clean">High Pressure Water Clean</option>
                                             <option value="One-off Clean">One-off Clean</option>

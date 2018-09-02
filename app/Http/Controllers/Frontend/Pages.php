@@ -131,6 +131,10 @@ class Pages extends Controller
         return redirect('/getrates');
     }
 
+    public function quick_form_handler(Request $request){
+        $data = $request->get('quick');
+        dd($data);
+    }
     /**
      * Terms 页面
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View

@@ -10,7 +10,6 @@
     <!-- index -->
 
 
-
     <section id="why" class="bg-white" style="padding: 80px 0;">
         <div class="container">
             <div class="row">
@@ -45,8 +44,45 @@
         </div>
     </section>
 
+    <section id="faq" class="bg-light" style="padding: 80px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 my-auto">
+                    <div class="faq-item">
+                        <h3>CAN I HAVE MY BOND FULLY REFUNDED?</h3>
+                        <p>Recovering your bond money when you move out of your home is a fraught process for manypeople. We consider the bond money to be rightfully yours and thus we offer a 100% bond recovery guarantee for all our end of lease cleaning services...
+                            <a href="{{ url('/services') }}">Book a service today</a></p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>WHAT DO YOU DO FOR AIRBNB CLEANING?</h3>
+                        <p>We do a lot for Airbnb cleaning. Our Airbnb cleaning service not only includes dusting, mopping, vacuum clean, etc., but also includes bed making and linen . All Airbnb cleaners are specially trained and have a valid police check.
+                            <a href="{{ url('/airbnb') }}">Read more</a></p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>LOOKING FOR A CHEAP MAINTENANCE SERVICE?</h3>
+                        <p>We provide a wide range of cheap maintenance service, including weeding, gardening, door repair, window repair, floor waxing, wall patch, wall painting, fence repair, leak detection...
+                            <a href="{{ url('/getrates') }}">Request a quote</a></p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>I LIVE IN FRANKSTON/POINT COOK...CAN YOU COME?</h3>
+                        <p>We serve all suburbs in and around Melbourne.
+                            <a href="{{ url('/getrates') }}">Check availability in your suburb</a></p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>CAN YOU JUST CLEAN MY KITCHEN/BATHROOM?</h3>
+                        <p>We can customise our cleaning service for you. Kitchen cleaning may not be easy for you but just a routine work for us. Some people also bother themselves about mould removal, why not just call us?
+                            <a href="{{ url('/services') }}">Learn More</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                    <img src="{{asset('images/newfrontend/faq.png')}}" alt="why"  class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section id="comments" class="bg-light">
+
+    <section id="comments" class="bg-white">
         <div class="container-fluid">
             <div class="row">
                 <div class="offset-lg-2 col-lg-6 my-auto col-md-12">
