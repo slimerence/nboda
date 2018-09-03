@@ -118,13 +118,13 @@
                                         <li>Clean bath & shower</li>
                                         <li>Clean basin & taps</li>
                                         <li>Wipe mirrorss</li>
-                                        <li>Y Replenish toiletries</li>
+                                        <li>Replenish toiletries</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-4 col-sm-12 align-self-center">
                                     <ul>
                                         <li>Clean the interior of cupboard</li>
-                                        <li>General tidy up/li>
+                                        <li>General tidy up</li>
                                         <li>Scrub wall tiles & joints in between*</li>
                                     </ul>
                                     <p style="margin-top: 2em;">Only available for deep cleaning services
