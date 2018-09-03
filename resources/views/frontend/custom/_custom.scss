@@ -313,6 +313,11 @@ $theme-light:#bb4131;
   .row{
     margin-top:0.6em;
   }
+  @media (max-width: 798px) {
+    [class*="col-md"]{
+    margin-top: 0.8em;
+    }
+  }
 }
 
 #airbtnConfirmbtn{
@@ -322,6 +327,7 @@ $theme-light:#bb4131;
   background-color: $theme-light;
   color: white;
   font-size: 18px;
+  padding: 0.3em 0;
 }
 
 .trapezoid {
@@ -389,6 +395,7 @@ $theme-light:#bb4131;
   h3{
     font-size: 20px;
     color:$theme-color;
+    margin-bottom:0.8em;
   }
   p,span,li{
     font-size: 18px;
@@ -448,5 +455,21 @@ $theme-light:#bb4131;
         margin-bottom: 0;
       }
     }
+  }
+}
+
+#line,#consumable{
+  h3{
+    font-size: 20px;
+    color:$theme-color;
+    margin-bottom:0.8em;
+  }
+  p,span,li{
+    font-size: 18px;
+    text-align:justify;
+    margin-bottom: 1em;
+  }
+  span{
+    color:$theme-color;
   }
 }

@@ -77,7 +77,7 @@
                                        <li>Vacuum under beds*</li>
                                    </ul>
                                </div>
-                           </div> 
+                           </div>
                         </div>
                         <div class="flex-home-item align-self-center">
                             <div class="row">
@@ -139,10 +139,70 @@
 
 
         <div role="tabpanel" class="tab-pane fade" id="line" aria-labelledby="line-tab">
-            2
+            <div class="container" style="padding-bottom: 2em;">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <h3>MAKE YOUR AIRBNB A FIVE-STAR HOTEL</h3>
+                        <p style="margin-bottom: 0.8em;">A comfy bed is essential for a sound sleep. Our high- grade linen includes <span>bed sheet, donna cover, pillow case, bath towel, bath mat, face washer, tea towel</span>, covers the entire spectrum of guests' living demands. </p>
+                        <p>All linen will be replaced whether it has been used or not, and all used linen will be packed and sent back to us - we promise a 'hassle-free' ser­vice all the time! </p>
+                        <a href="{{ url('/getrates') }}" class="nbtn mt-1 px-1" style="max-width: 600px;" >LINEN SUPPLY FROM ONLY <strong>$14</strong> <span class="float-right" style="color: #fff;text-decoration: underline;">SEE MORE</span> </a>
+                    </div>
+                    <div class="col-md-4 col-sm-12 align-self-center">
+                        <img src="{{ asset('images/newfrontend/line1.jpg') }}" class="img-fluid w-100" alt="bh1">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-light w-100 tab-down">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-12 align-self-center">
+                            <img src="{{ asset('images/newfrontend/line2.jpg') }}" class="img-fluid w-100" alt="bh1">
+                        </div>
+                        <div class="col-md-7 col-sm-12 align-self-center">
+                            <h3>WHY CHOOSE A QUALITY LINEN SUPPi ER? </h3>
+                            <p>Some Airbnb hosts opt to keep the job and the manpower to themselves. It works sometimes, but for others - especially those who has multiple Airbnb properties - it often does not.</p>
+                            <p>Supplying the linens by oneself means having to concern for many other issues in addition to Airbnb hosting. <span>What hap­pens if there is a stubborn stain on the sheet that cannot be washed off? </span>This situation can be worse if you don't have a new one on hand to replace. </p>
+                        </div>
+                        <div class="col-12 mt-1">
+                            <p><span>Linen disinfection is another issue that all Airbnb hosts should take into account if they want to get a higher ranking.</span> A thorough disinfection of soiled linen is essential as some guests are super sensitive to unhygienic materials. </p>
+                            <p>While most domestic washing machines and coin Laundromats can only provide washing and drying services, they are less likely to help with the disinfection. And <span>extra working, such as pressing and ironing may be required if you want your bedrooms look more tidy and artistic. </span></p>
+                            <p>By hiring a qualify linen supplier like us, all you have to do is choose the suitable package of linen for your Airbnb houses, sign the contract, and define the specifications. The rest of jobs are on us - delivery, replacement, packing, laundry ... <span>We promise your Airbnb house is always tidy and clean with fresh and wrinkle-free linen.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div role="tabpanel" class="tab-pane fade" id="consumable" aria-labelledby="consumable-tab">
-            3
+            <div class="container" style="padding-bottom: 2em;">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <h3>SPOIL YOUR GUEST WITH QUALITY CONSUMABLES</h3>
+                        <p style="margin-bottom: 0.8em;">Whether your Airbnb property is a villa or a cottage, a complete set of hotel quality consumable is always a bonus. From bathroom to kitchen, we supply a comprehensive range of quality consumables: <span>shower gel, shampoo, conditioner, body lotion, soap, laundry powder, toilet rolls, dishwashing liquid, tea, instant coffee, sugar, milk. </span></p>
+                        <p>All consumables will be restocked during each cleaning if you' like us to be the supplier. </p>
+                        <a href="{{ url('/getrates') }}" class="nbtn mt-1 px-1" style="max-width: 600px;" >CONSUMABLES SUPPLY FROM ONLY <strong>$9</strong> <span class="float-right d-none d-md-inline-block" style="color: #fff;text-decoration: underline;">SEE MORE</span> </a>
+                    </div>
+                    <div class="col-md-4 col-sm-12 align-self-center">
+                        <img src="{{ asset('images/newfrontend/con1.jpg') }}" class="img-fluid w-100" alt="bh1">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-light w-100 tab-down">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 align-self-center reblock">
+                            <img src="{{ asset('images/newfrontend/con2.jpg') }}" style="padding: 1.5em" class="img-fluid w-100" alt="bh1">
+                        </div>
+                        <div class="col-md-8 col-sm-12 align-self-center">
+                            <h3>HYGIENIC, ECONOMICAL, ALSO ENVIRONMENTAL-FRIENDLY</h3>
+                            <p>Shower gel in value pack maybe good for cost control, but it's never the best choice in the interests of hygiene. Guest expectations are getting higher when it comes to short-term accommodation. </p>
+                            <p>A complete set of new toiletries is one of the key to win your guest's heart. From shampoo to laundry powder, our quality toiletries cover the entire spectrum of daily living needs. </p>
+                            <p>And we're doing more to help you impress your guests. Tea, coffee, milk, sugar ... we prepare everything that your guest may need during their stay. All you need to do is just sign the contract and define the specifications if there is. The rest of jobs are on us. </p>
+                            <p>No further notice or reminder is required as we will restock and replace all consumables during each cleaning after you sign the contract - we promise a 'hassle-free' service and we are endeavouring to keep our promise. </p>
+                            <p>All consumables are made in Australia, with commercial quality and com­prehensive ranges. Feel free to ask for a detailed brochure and the price list of our quality consumables by sending your request to <span>help@newboda­clean.com.au</span> or call on <span>0433588517</span>. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
