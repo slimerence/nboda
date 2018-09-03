@@ -172,11 +172,7 @@ $theme-light:#bb4131;
     }
   }
 }
-@media screen and (max-width: 768px){
-  #main {
-    padding: 0;
-  }
-}
+
 #main{
     padding: 0 1rem;
     margin: 3em 1px;
@@ -215,6 +211,12 @@ $theme-light:#bb4131;
       font-size:15px;
       color:#0a0a0a;
     }
+  }
+}
+
+@media (max-width: 768px){
+  #main {
+    padding: 0;
   }
 }
 
@@ -291,6 +293,7 @@ $theme-light:#bb4131;
     font-size:20px;
     line-height:1.6em;
     margin-bottom: 0.6em;
+    text-align:justify;
   }
   a{
     color: $theme-color;
@@ -334,4 +337,96 @@ $theme-light:#bb4131;
   color: rgba(0,0,0,1);
   -o-text-overflow: clip;
   text-overflow: clip;
+}
+
+#airbnb-panel{
+  .nav-tabs{
+    .nav-item{
+    width: 33.33%;
+    margin:0 auto;
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    }
+    /*.nav-last{
+      -webkit-transform: unset;
+      transform: unset;
+    }*/
+  }
+  .nav-tabs .nav-link{
+    border-radius:unset;
+    padding:0.5em 0;
+    font-size:16px;
+    text-align: center;
+    margin: 0 0.5em;
+    background-color:#c3c3c3;
+    color:#fff;
+    border:none;
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #fff;
+    background-color: $theme-color;
+    border-color: unset;
+  }
+  .nav-tabs{
+    border-bottom:unset;
+  }
+
+}
+
+
+.nbtn{
+  width: 100%;
+  display: block;
+  border: 1px solid #e3e3e3;
+  background-color: $theme-light;
+  color: white;
+  font-size: 18px;
+  text-align:center;
+  padding:0.4em 0;
+}
+
+#housekeeping{
+  h3{
+    font-size: 20px;
+    color:$theme-color;
+  }
+  p,span,li{
+    font-size: 18px;
+    text-align:justify;
+  }
+  span{
+    color:$theme-color;
+  }
+  .pricelist{
+    list-style: none;
+    padding: 0;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .hbg{
+    background-color: $theme-color;
+    color: #fff;
+    padding: 0.3em 1em;
+  }
+  .li-price{
+    display: inline-block;
+    float: right;
+  }
+  .tab-down{
+    .hafter{
+      font-size: 24px;
+      &:after{
+        content: '';
+        width: 2em;
+        background-color: $theme-color;
+        height: 0.7em;
+        margin-left: 0.5em;
+        display: inline-block
+      }
+      span{font-size: 24px;}
+    }
+  }
+}
+.tab-down{
+  margin-top: 4em;
 }
