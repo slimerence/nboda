@@ -415,6 +415,7 @@ $theme-light:#bb4131;
   .tab-down{
     .hafter{
       font-size: 24px;
+      margin-bottom:0.8em;
       &:after{
         content: '';
         width: 2em;
@@ -428,5 +429,24 @@ $theme-light:#bb4131;
   }
 }
 .tab-down{
-  margin-top: 4em;
+  padding:2em 0;
+}
+
+.flex-home-item{
+  width: 100%;
+  margin: 2em auto;
+  ul{
+    li{
+      margin-bottom: 0.3em;
+      &:before{
+        content:"\f00c";
+        font-family: FontAwesome;
+        display:inline-block;
+        padding:0 0.3em;
+      }
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
 }

@@ -29,7 +29,7 @@
 <section class="bg-white">
     <div class="tab-content" style="padding: 3em 0">
         <div role="tabpanel" class="tab-pane fade active show" id="housekeeping" aria-labelledby="housekeeping-tab">
-            <div class="container">
+            <div class="container" style="padding-bottom: 2em;">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <h3>WE KNOW BETTER THAN ANYONE ELSE</h3>
@@ -46,8 +46,92 @@
                         <p style="margin-top: 1.5em;">Call us on <span>0433 588 517</span> or book a free inspection today to get your customised package. </p>
                         <a href="{{ url('/getrates') }}" class="nbtn mt-1" >BOOK A FREE INSPECTION TODAY</a>
                     </div>
-                    <div class="col-12 tab-down">
-                        <h2 class="hafter">WHAT WE <span>DO</span> FOR <span>AIRBNB</span> CLEANING</h2>
+                </div>
+            </div>
+            <div class="bg-light w-100 tab-down">
+                <div class="container">
+                    <h2 class="hafter">WHAT WE <span>DO</span> FOR <span>AIRBNB</span> CLEANING</h2>
+                    <div class="d-flex w-100 flex-wrap">
+                        <div class="flex-home-item align-self-center">
+                           <div class="row">
+                               <div class="col-md-4 col-sm-12 align-self-center">
+                                   <img src="{{ asset('images/newfrontend/bh1.jpg') }}" class="img-fluid w-100" alt="bh1">
+                               </div>
+                               <div class="col-md-4 col-sm-12 align-self-center">
+                                   <ul>
+                                       <li>Dusting all surfaces</li>
+                                       <li>Vacuum floorboard/carpets</li>
+                                       <li>Linen changeover</li>
+                                       <li>Place towels</li>
+                                       <li>Make-up beds</li>
+                                       <li>Mop floors I tiles</li>
+                                   </ul>
+                               </div>
+                               <div class="col-md-4 col-sm-12 align-self-center">
+                                   <ul>
+                                       <li>Empty rubbish bins</li>
+                                       <li>General tidy up</li>
+                                       <li>Wipe skirting boards / sills*</li>
+                                       <li>Remove cobwebs*</li>
+                                       <li>Vacuum sofa furnishing*</li>
+                                       <li>Vacuum under beds*</li>
+                                   </ul>
+                               </div>
+                           </div> 
+                        </div>
+                        <div class="flex-home-item align-self-center">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12 align-self-center">
+                                    <img src="{{ asset('images/newfrontend/bh2.jpg') }}" class="img-fluid w-100" alt="bh1">
+                                </div>
+                                <div class="col-md-4 col-sm-12 align-self-center">
+                                    <ul>
+                                        <li>Mopping all surfaces</li>
+                                        <li>Vacuum & mopping floor</li>
+                                        <li>Clean sinks & taps</li>
+                                        <li>Microwave deep clean</li>
+                                        <li>Grease stains removal</li>
+                                        <li>Unload dishes & utensils</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 col-sm-12 align-self-center">
+                                    <ul>
+                                        <li>Empty rubbish bins</li>
+                                        <li>Clean bench top & cupboard</li>
+                                        <li>Oven/grill deep clean*</li>
+                                        <li>Remove cobwebs*</li>
+                                        <li>Consumable restocking*</li>
+                                        <li>Wall washing*</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-home-item align-self-center">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12 align-self-center">
+                                    <img src="{{ asset('images/newfrontend/bh3.jpg') }}" class="img-fluid w-100" alt="bh1">
+                                </div>
+                                <div class="col-md-4 col-sm-12 align-self-center">
+                                    <ul>
+                                        <li>Mopping all surfaces</li>
+                                        <li>Vacuum & mopping floor</li>
+                                        <li>Clean bath & shower</li>
+                                        <li>Clean basin & taps</li>
+                                        <li>Wipe mirrorss</li>
+                                        <li>Y Replenish toiletries</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 col-sm-12 align-self-center">
+                                    <ul>
+                                        <li>Clean the interior of cupboard</li>
+                                        <li>General tidy up/li>
+                                        <li>Scrub wall tiles & joints in between*</li>
+                                    </ul>
+                                    <p style="margin-top: 2em;">Only available for deep cleaning services
+                                        or on your demand.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
