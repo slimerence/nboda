@@ -9,7 +9,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
                 <div class="airbnb-top">
-                    <h2 style="text-transform: uppercase;margin-bottom: 0.6em;" >CLEANING SERVICES</h2>
+                    <h2>CLEANING SERVICES</h2>
                     <p style="margin-bottom: 0.6em;">All cleaning services are delivered by our thoroughly trained cleaning experts, with the latest techniques and environmental-friendly chemicals, leave your place tidy and fresh.</p>
                     <p><span class="span-bgb">End of Lease Clean</span>  Prompt, professional, and 100% bond recovery guarantee</p>
                     <p><span class="span-bgr">Carpet Steam Clean</span>  Romoving most of home stains, cheap and cheerful</p>
@@ -80,7 +80,7 @@
                     </div>
                 </form>
             </div>
-            <div class="offset-lg-2">
+            <div class="offset-lg-2" style="z-index: -1;">
                 <div class="abs-img">
                     <img src="{{asset('images/newfrontend/bg02.png')}}" alt="slo">
                 </div>

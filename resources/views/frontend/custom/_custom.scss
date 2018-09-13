@@ -288,16 +288,27 @@ $theme-light:#bb4131;
       margin-left: 0.5em;
       display: inline-block
     }
+    text-transform: uppercase;
+    margin-bottom: 0.6em;
   }
   p{
     font-size:20px;
     line-height:1.6em;
     margin-bottom: 0.6em;
-    text-align:justify;
+    text-align:left;
   }
   a{
     color: $theme-color;
     text-decoration:underline;
+  }
+  @media (max-width: 798px){
+    h2{
+      font-size: 24px!important; ;
+    }
+    p{
+      font-size:16px;
+      line-height:1.25em;
+    }
   }
 }
 
@@ -483,6 +494,32 @@ $theme-light:#bb4131;
   padding: 0 0.5em;
 }
 
+.service-nav{
+  .nav-item-6{
+    flex-grow: 1;
+    flex-basis: 240px;
+    margin-top: 10px;
+    .nav-link{
+      a{
+        font-size: 14px!important;
+      }
+      font-size: 14px!important;
+      border-radius:unset;
+      padding:0.5em 1em;
+      text-align: center;
+      margin: 0 0.5em;
+      background-color:#c3c3c3;
+      color:#fff;
+      border:none;
+    }
+    .active{
+      color: #fff;
+      background-color: $theme-color;
+      border-color: unset;
+    }
+  }
+
+}
 
 #service-panel {
   .nav-tabs .nav-link{
@@ -503,14 +540,6 @@ $theme-light:#bb4131;
   .nav-tabs{
     border-bottom:unset;
   }
-  .nav-item-6{
-    .nav-link{
-      a{
-        font-size: 14px!important;
-      }
-      font-size: 14px!important;
-    }
-  }
 }
 
 .li-tick{
@@ -529,15 +558,21 @@ $theme-light:#bb4131;
 }
 
 #eol{
-
+  .line-height-special{
+    line-height: 2em!important;
+  }
   h3{
     font-size: 20px;
     color:$theme-color;
-    margin-bottom:0.8em;
+    margin-top: 0.4em;
+    margin-bottom:0.2em;
     line-height: 1.5em;
   }
   p,span,li{
     font-size: 18px;
+  }
+  p{
+    line-height: 1.5em;
   }
   span{
     color:$theme-color;
@@ -577,6 +612,11 @@ $theme-light:#bb4131;
       span{font-size: 24px;}
     }
   }
+  .caption{
+    p{
+      font-size: 14px;
+    }
+  }
 }
 
 #carpet{
@@ -584,12 +624,14 @@ $theme-light:#bb4131;
   h3{
     font-size: 20px;
     color:$theme-color;
-    margin-bottom:0.8em;
+    margin-bottom:0.2em;
+    margin-top:0.4em;
     line-height: 1.5em;
   }
   p,span,li{
     font-size: 18px;
   }
+
   span{
     color:$theme-color;
   }
@@ -626,3 +668,4 @@ $theme-light:#bb4131;
     }
   }
 }
+

@@ -3,12 +3,12 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <p class="mb-1">Don't let the cleaning spoil your weekend · leave it to us and take your getaway! </p>
-                <p>Cleaning a greasy kitchen or scales in the bathroom maybe not easy for you, but just a piece of cake for us. Our professional cleaners are thoroughly trained and fully equipped · <span class="color-normal">your home is in good hands!</span> </p>
+                <p>Cleaning a greasy kitchen or scales in the bathroom maybe not easy for you, but just a piece of cake for us. Our professional cleaners are thoroughly trained and fully equipped - <span class="color-normal">your home is in good hands!</span> </p>
             </div>
             <div class="col-md-6 col-sm-12 px-md-1">
                 <ul class="pricelist mb-1" style="margin-top: 1em;">
-                    <li>3 Hours {Minimun)    <div class="li-price"> <span>$120</span> </div></li>
-                    <li class="bg-light">Addtional Hours    <div class="li-price"> <span>$40</span>/hour</div></li>
+                    <li>3 Hours(Minimum)<div class="li-price"> <span>$120</span> </div></li>
+                    <li class="bg-light">Additional Hours<div class="li-price"> <span>$40</span>/hour</div></li>
                 </ul>
                 <ul>
                     <li><span class="color-normal">One-off clean: </span>flexible and efficient, no lock.in contract</li>
@@ -23,11 +23,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <h3>ONE-OFF CLEAN</h3>
-                    <p class="mb-1">You can book a one.off clean any time if you think your house needs to be cleaned. </p>
+                    <p>You can book a one.off clean any time if you think your house needs to be cleaned. </p>
                     <h3>REGULAR CLEAN</h3>
                     <p>You can turn a once off clean into a regular clean if you want your house to be cleaned routinely. There is no lock.in contract attached, you can cancel the service any time. </p>
                     <h3>DEEP CLEAN</h3>
-                    <p>Need a spring clean for your property? We can do every thing for you! Dusting, cleaning, weeding, rubbish removal, wall washing ... <span class="color-normal">Book now</span> to give your home a new look! </p>
+                    <p>Need a spring clean for your property? We can do every thing for you! Dusting, cleaning, weeding, rubbish removal, wall washing ...
+                        <a href="{{url('getrates')}}"><span class="color-normal">Book now</span></a> to give your home a new look! </p>
                 </div>
                 <div class="col-md-6 align-self-center">
                     <h3>YOU MAY ALSO LOOKING FOR</h3>

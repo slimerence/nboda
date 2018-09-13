@@ -8,29 +8,29 @@
 @endsection
 @section('content')
     <seciton id="service-panel">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <ul class="nav nav-tabs w-100" id="airTab">
-                        <li class="nav-item-6">
+                    <div class="d-flex flex-wrap justify-content-between service-nav">
+                        <div class="nav-item-6">
                             <a class="nav-link {{ $service =='' ? 'active':'' }}"  href="{{ url('services') }}" aria-selected="true">END OF LEASE CLEAN</a>
-                        </li>
-                        <li class="nav-item-6">
+                        </div>
+                        <div class="nav-item-6">
                             <a class="nav-link {{ $service =='carpet' ? 'active':'' }}"  href="{{ url('services/carpet') }}" aria-selected="false">CARPET STEAM CLEAN</a>
-                        </li>
-                        <li class="nav-item-6">
+                        </div>
+                        <div class="nav-item-6 align-self-stretch">
                             <a class="nav-link {{ $service =='homeclean' ? 'active':'' }}"  href="{{ url('services/homeclean') }}" aria-selected="false">HOME CLEAN</a>
-                        </li>
-                        <li class="nav-item-6">
+                        </div>
+                        <div class="nav-item-6">
                             <a class="nav-link {{ $service =='commercial' ? 'active':'' }}"  href="{{ url('services/commercial') }}" aria-selected="true">COMMERCIAL CLEAN</a>
-                        </li>
-                        <li class="nav-item-6">
+                        </div>
+                        <div class="nav-item-6">
                             <a class="nav-link {{ $service =='highpressure' ? 'active':'' }}"  href="{{ url('services/highpressure') }}" aria-selected="false">HIGH-PRESSURE CLEAN</a>
-                        </li>
-                        <li class="nav-item-6">
+                        </div>
+                        <div class="nav-item-6">
                             <a class="nav-link {{ $service =='rubbish' ? 'active':'' }}"  href="{{ url('services/rubbish') }}" aria-selected="false">RUBBISH REMOVAL</a>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
     <section id="why" class="bg-white" style="padding: 80px 0;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 my-auto text-center">
+                <div class="col-lg-3 col-md-3 col-sm-6 my-auto text-center reblock">
                     <img src="{{asset('images/newfrontend/ourpro.png')}}" alt="pro" style="max-width: 150px;" class="img-fluid">
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center my-auto">

@@ -12,7 +12,7 @@
                     <li>Unbeatable price and great service</li>
                 </ul>
             </div>
-            <div class="col-md-6 col-sm-12 px-md-1">
+            <div class="col-md-6 col-sm-12 px-md-1 align-self-center">
                 <ul class="pricelist" style="margin-top: 1em;">
                     <li>Studio  <div class="li-price"> <span>$150 - $250 </span> </div></li>
                     <li class="bg-light">1 Bed + 1 Bath  <div class="li-price"> <span>$180 - $280 </span> </div></li>
