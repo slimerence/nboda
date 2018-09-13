@@ -9,13 +9,13 @@
             </div>
             <div class="col-lg-8 col-sm-12">
                 <div class="airbnb-top">
-                    <h2>CLEANING SERVICES</h2>
+                    <h1>{{ $metaKeywords }}</h1>
                     <p style="margin-bottom: 0.6em;">All cleaning services are delivered by our thoroughly trained cleaning experts, with the latest techniques and environmental-friendly chemicals, leave your place tidy and fresh.</p>
-                    <p><span class="span-bgb">End of Lease Clean</span>  Prompt, professional, and 100% bond recovery guarantee</p>
-                    <p><span class="span-bgr">Carpet Steam Clean</span>  Romoving most of home stains, cheap and cheerful</p>
-                    <p><span class="span-bgb">Home Clean</span>  On time every time, with a great price</p>
-                    <p><span class="span-bgr">Commercial Clean</span>  Office, warehouse, factory, clinic, free quote on site</p>
-                    <p><span class="span-bgb">High-Pressure Clean</span>  Professional, and 100% bond recovery guarantee</p>
+                    <p><span class="span-bgb">End of Lease Cleaning</span>  Prompt, professional, and 100% bond recovery guarantee</p>
+                    <p><span class="span-bgr">Carpet Steam Cleaning</span>  Romoving most of home stains, cheap and cheerful</p>
+                    <p><span class="span-bgb">Home Cleaning</span>  On time every time, with a great price</p>
+                    <p><span class="span-bgr">Commercial Cleaning</span>  Office, warehouse, factory, clinic, free quote on site</p>
+                    <p><span class="span-bgb">High-Pressure Cleaning</span>  Professional, and 100% bond recovery guarantee</p>
                     <p><span class="span-bgr">Rubbish Removal</span>   Hard rubbish removal, waste removal, prices from $250</p>
                 </div>
                 <form class="airbnb-form" style="margin-top: 2em;" action="{{ url('/quick-form') }}" method="post">

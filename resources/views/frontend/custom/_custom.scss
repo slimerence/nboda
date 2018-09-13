@@ -192,7 +192,7 @@ $theme-light:#bb4131;
       display: none;
     }
   }
-  h2{
+  h1{
     font-size: 35px;
     margin-bottom: 10px;
     color:#0a0a0a;
@@ -279,7 +279,7 @@ $theme-light:#bb4131;
   @media screen and (min-width: 798px) {
     margin-top: 3em;
   }
-  h2{
+  h1{
     &:after{
       content: '';
       width: 2em;
@@ -302,7 +302,7 @@ $theme-light:#bb4131;
     text-decoration:underline;
   }
   @media (max-width: 798px){
-    h2{
+    h1{
       font-size: 24px!important; ;
     }
     p{
@@ -316,7 +316,7 @@ $theme-light:#bb4131;
   select,input{
     border: 2px solid #e3e3e3;
     background-color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     padding: 0.3em 0.8em;
     width:100%;
     height: 100%;
@@ -337,7 +337,7 @@ $theme-light:#bb4131;
   border: 1px solid #e3e3e3;
   background-color: $theme-light;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   padding: 0.3em 0;
 }
 

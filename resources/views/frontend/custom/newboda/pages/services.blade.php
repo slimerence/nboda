@@ -1,10 +1,10 @@
 @extends(_get_frontend_layout_path('frontend'))
 
-@section('title','End of Lease Clean | Vacate Clean Melbourne | Carpet Steam Clean')
+@section('title', $metaKeywords )
 
 @section('seoconfig')
-    <meta name="keywords" content="end of lease clean | vacate clean melbourne | carpet steam clean">
-    <meta name="description" content="NBD is a professional Cleaning expert provides thorough Melbourne Regular Cleaning services, such as end of lease clean, vacate clean and carpet steam clean service. For more detail about vacate clean service in Melbourne, please contact us: info@newboda.com.">
+    <meta name="keywords" content="{{$metaKeywords}}">
+    <meta name="description" content="{{$metaDescription}}">
 @endsection
 @section('content')
     <seciton id="service-panel">
@@ -13,19 +13,19 @@
                 <div class="col-12">
                     <div class="d-flex flex-wrap justify-content-between service-nav">
                         <div class="nav-item-6">
-                            <a class="nav-link {{ $service =='' ? 'active':'' }}"  href="{{ url('services') }}" aria-selected="true">END OF LEASE CLEAN</a>
+                            <a class="nav-link {{ $service =='' ? 'active':'' }}"  href="{{ url('services') }}" aria-selected="true">END OF LEASE CLEANING</a>
                         </div>
                         <div class="nav-item-6">
-                            <a class="nav-link {{ $service =='carpet' ? 'active':'' }}"  href="{{ url('services/carpet') }}" aria-selected="false">CARPET STEAM CLEAN</a>
+                            <a class="nav-link {{ $service =='carpet' ? 'active':'' }}"  href="{{ url('services/carpet') }}" aria-selected="false">CARPET STEAM CLEANING</a>
                         </div>
                         <div class="nav-item-6 align-self-stretch">
-                            <a class="nav-link {{ $service =='homeclean' ? 'active':'' }}"  href="{{ url('services/homeclean') }}" aria-selected="false">HOME CLEAN</a>
+                            <a class="nav-link {{ $service =='homeclean' ? 'active':'' }}"  href="{{ url('services/homeclean') }}" aria-selected="false">HOME CLEANING</a>
                         </div>
                         <div class="nav-item-6">
-                            <a class="nav-link {{ $service =='commercial' ? 'active':'' }}"  href="{{ url('services/commercial') }}" aria-selected="true">COMMERCIAL CLEAN</a>
+                            <a class="nav-link {{ $service =='commercial' ? 'active':'' }}"  href="{{ url('services/commercial') }}" aria-selected="true">COMMERCIAL CLEANING</a>
                         </div>
                         <div class="nav-item-6">
-                            <a class="nav-link {{ $service =='highpressure' ? 'active':'' }}"  href="{{ url('services/highpressure') }}" aria-selected="false">HIGH-PRESSURE CLEAN</a>
+                            <a class="nav-link {{ $service =='highpressure' ? 'active':'' }}"  href="{{ url('services/highpressure') }}" aria-selected="false">HIGH-PRESSURE CLEANING</a>
                         </div>
                         <div class="nav-item-6">
                             <a class="nav-link {{ $service =='rubbish' ? 'active':'' }}"  href="{{ url('services/rubbish') }}" aria-selected="false">RUBBISH REMOVAL</a>

@@ -5,7 +5,7 @@
                 @include(_get_frontend_layout_path('frontend.navbox'))
             </div>
             <div class="col-lg-8">
-            <h2>Choose us, choose to be looked after - </h2>
+            <h1>Cleaning Services | Professional House Cleaners</h1>
             <img src="{{asset('images/newfrontend/slo.png')}}" alt="slo" class="img-fluid" style="margin-bottom: 40px;">
                 <div class="row">
                     <div class="col">
