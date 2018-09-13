@@ -7,237 +7,76 @@
     <meta name="description" content="NBD is a professional Cleaning expert provides thorough Melbourne Regular Cleaning services, such as end of lease clean, vacate clean and carpet steam clean service. For more detail about vacate clean service in Melbourne, please contact us: info@newboda.com.">
 @endsection
 @section('content')
-
-    <div class="infoconbox infoserbox">
-        <div class="abrightpos">
-            <img src="{{asset('images/newfrontend/bg14.png')}}">
-        </div>
-        <div class="overhiddenbox">
-            <div class="bgleft">
-                <img src="{{asset('images/newfrontend/bg15.png')}}"/>
-            </div>
-            <div class="bgleftwhite"></div>
-            <div class="mainarticle">
-                <h1>Our Services</h1>
-                <p>We are a professional cleaning company servicing the greater Melbourne area, which includes CBD, Docklands, Southbank and entire district of Melbourne.</p>
-
-                <p>Our philosophy is &ldquo; Choose us, Choose to be looked after&rdquo;.</p>
-                <p>WORRY FREE:  we don't believe in doing a good job, we believe in doing a great job and thus offer a 100% bond back guarantee. </p>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="serlistbox">
-        <div class="block">
-            <div class="wrap clearfix">
-                <ul class="clearfix">
-                    <li>
-                        <div class="topimg">
-                            <img src="{{asset('images/newfrontend/ser11.png')}}"/>
-                        </div>
-                        <div class="article">
-                            <h1>End of Lease Clean</h1>
-                            <p>
-                                We will strictly follow the standard of cleanliness of real estate agents to clean the property, to ensure that your bond can be returned,</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="topimg">
-                            <img src="{{asset('images/newfrontend/ser12.png')}}"/>
-                        </div>
-                        <div class="article">
-                            <h1>High Pressure Water Clean</h1>
-                            <p>
-                                If you still concern about the dirt stain on the ground, you can choose our high-pressure water clean service, we will give you a peace of mind!</p>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div class="topimg">
-                            <img src="{{asset('images/newfrontend/ser13.png')}}"/>
-                        </div>
-                        <div class="article">
-                            <h1>One-off Clean</h1>
-                            <p>
-                                Whether you wanna your whole house cleaned, or just a kitchen, we will tailor the cleaning service to suit your specific requirements.</p>
-
-                        </div>
-                    </li>
-                </ul>
-                <div class="btnbox">
-                    <a href="/getrates">GET RATES</a>
-                </div>
-                <!-- 手机版新增 向下箭头 点击展现下面内容 -->
-                <div class="mobdownmore">
-                    <i class="fa fa-angle-down"></i>
-                </div>
-                <!-- end -->
-            </div>
-        </div>
-
-        <div class="moboprate">
-            <div class="block">
-                <div class="wrap clearfix">
-                    <ul class="clearfix">
-                        <li>
-                            <div class="topimg">
-                                <img src="{{asset('images/newfrontend/ser14.png')}}"/>
-                            </div>
-                            <div class="article">
-                                <h1>Regular Clean</h1>
-                                <p>
-                                    We will help you to save your time from housework, you can easily enjoy the beautiful day with your friends.</p>
-
-                            </div>
+    <seciton id="service-panel">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-tabs w-100" id="airTab">
+                        <li class="nav-item-6">
+                            <a class="nav-link {{ $service =='' ? 'active':'' }}"  href="{{ url('services') }}" aria-selected="true">END OF LEASE CLEAN</a>
                         </li>
-                        <li>
-                            <div class="topimg">
-                                <img src="{{asset('images/newfrontend/ser15.png')}}"/>
-                            </div>
-                            <div class="article">
-                                <h1>Carpet Steam Clean</h1>
-                                <p>Dirty carpet may cause skin irritation and regular carpet steam cleaning service can make your stay more enjoyable.</p>
-                            </div>
+                        <li class="nav-item-6">
+                            <a class="nav-link {{ $service =='carpet' ? 'active':'' }}"  href="{{ url('services/carpet') }}" aria-selected="false">CARPET STEAM CLEAN</a>
                         </li>
-                        <li>
-                            <div class="topimg">
-                                <img src="{{asset('images/newfrontend/ser16.png')}}"/>
-                            </div>
-                            <div class="article">
-                                <h1>Pre and Post Pest Control Clean</h1>
-                                <p>
-                                    We can offer you the professional pre and post pest control clean, this allows you to stay away from pest problems.</p>
-
-                            </div>
+                        <li class="nav-item-6">
+                            <a class="nav-link {{ $service =='homeclean' ? 'active':'' }}"  href="{{ url('services/homeclean') }}" aria-selected="false">HOME CLEAN</a>
+                        </li>
+                        <li class="nav-item-6">
+                            <a class="nav-link {{ $service =='commercial' ? 'active':'' }}"  href="{{ url('services/commercial') }}" aria-selected="true">COMMERCIAL CLEAN</a>
+                        </li>
+                        <li class="nav-item-6">
+                            <a class="nav-link {{ $service =='highpressure' ? 'active':'' }}"  href="{{ url('services/highpressure') }}" aria-selected="false">HIGH-PRESSURE CLEAN</a>
+                        </li>
+                        <li class="nav-item-6">
+                            <a class="nav-link {{ $service =='rubbish' ? 'active':'' }}"  href="{{ url('services/rubbish') }}" aria-selected="false">RUBBISH REMOVAL</a>
                         </li>
                     </ul>
-                    <div class="btnbox">
-                        <a href="/getrates">GET RATES</a>
-                    </div>
                 </div>
             </div>
-            <div class="block">
-                <div class="wrap clearfix">
-                    <ul class="clearfix">
-                        <li>
-                            <div class="topimg">
-                                <img src="{{asset('images/newfrontend/ser17.png')}}"/>
-                            </div>
-                            <div class="article">
-                                <h1>After Build Clean</h1>
-                                <p>The builders have just finished constructing your house and they left a mess after that? call us, our cleaners will make the place spotless in a very short time!</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="topimg">
-                                <img src="{{asset('images/newfrontend/ser18.png')}}"/>
-                            </div>
-                            <div class="article">
-                                <h1>Office Clean</h1>
-                                <p>
-                                    Working in a clean office, you always deserve the best!</p>
-
-                            </div>
-                        </li>
-                        <li>
-                            <div class="topimg">
-                                <img src="{{asset('images/newfrontend/ser19.png')}}"/>
-                            </div>
-                            <div class="article">
-                                <h1>Urgent Clean</h1>
-                                <p>
-                                    If you need any urgent clean, call us right now! we will arrange the next available cleaner to come to your place &nbsp;ASAP</p>
-
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="btnbox">
-                        <a href="/getrates">GET RATES</a>
+        </div>
+    </seciton>
+    <section class="bg-white">
+        <div class="tab-content" style="padding: 3em 0">
+            @if(isset($service) && $service!=='')
+                @include(_get_frontend_theme_path('general.'.$service))
+            @else
+                @include(_get_frontend_theme_path('general.endoflease'))
+            @endif
+        </div>
+    </section>
+    <section id="why" class="bg-white" style="padding: 80px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 my-auto text-center">
+                    <img src="{{asset('images/newfrontend/ourpro.png')}}" alt="pro" style="max-width: 150px;" class="img-fluid">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 text-center my-auto">
+                    <div class="why-wrap">
+                        <img src="{{asset('images/newfrontend/ser1.png')}}" alt="why">
+                        <h3 style="margin-top: 0.8em;">100% SATISFACTION</h3>
+                        <h4>GUARANTEE</h4>
+                        <p>Our latest professional methods and various chemicals, which is effective against 99% of home stains.</p>
                     </div>
                 </div>
-            </div>
-            <div class="block clearfix specialblock">
-                <div class="row leftspe">
-                    <ul>
-                        <li>
-                            <div class="topimg">
-                                <img src="{{asset('images/newfrontend/ser20.png')}}"/>
-                            </div>
-                            <div class="article">
-                                <h1>Specialist Clean</h1>
-                                <h2>Oven Cleaning | Spot Cleaning | Tile and Grouts Cleaning | Rangehood Cleaning</h2>
-                                <p>Say no to your grimy and smelly oven, we have massive cleaning experience of experience to help you to solve a variety of cleaning issues. We provide professional oven cleaning, spot cleaning, tile and grouts cleaning, and rangehood cleaning service. Call us now, you deserve the best!</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="btnbox">
-                        <a href="/getrates">GET RATES</a>
+                <div class="col-lg-3 col-md-3 col-sm-6 text-center my-auto">
+                    <div class="why-wrap">
+                        <img src="{{asset('images/newfrontend/air2.png')}}" alt="why">
+                        <h3 style="margin-top: 0.8em;">CHEMICAL HAZARDS</h3>
+                        <h4>FREE</h4>
+                        <p>Safety is the first thing. All chemicals we use are environmental-friendly. Safe for kids and four-legged friends.</p>
                     </div>
                 </div>
-                <div class="row rightcircle">
-                    <div class="bgwhitecircle">
-                        <div class="linebox">
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                        </div>
-                        <ul class="clearfix">
-                            <li>
-                                <div class="cssTable">
-                                    <div class="cssTd">
-                                        <div class="img">
-                                            <img src="{{asset('images/newfrontend/ser21.png')}}">
-                                        </div>
-                                        <p>Oven clean</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cssTable">
-                                    <div class="cssTd">
-                                        <div class="img">
-                                            <img src="{{asset('images/newfrontend/ser22.png')}}">
-                                        </div>
-                                        <p>Spot clean</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li style="padding-left:0.3rem;">
-                                <div class="cssTable">
-                                    <div class="cssTd">
-                                        <div class="img">
-                                            <img src="{{asset('images/newfrontend/ser23.png')}}">
-                                        </div>
-                                        <p>tile and grouts</br>clean</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cssTable">
-                                    <div class="cssTd">
-                                        <div class="img">
-                                            <img src="{{asset('images/newfrontend/ser24.png')}}">
-                                        </div>
-                                        <p>Rangehood</br>clean</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="bggraycircle"> </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 text-center my-auto">
+                    <div class="why-wrap">
+                        <img src="{{asset('images/newfrontend/air3.png')}}" alt="why">
+                        <h3 style="margin-top: 0.8em;">PREMIUM SERVICE</h3>
+                        <h4>GREAT PRICE</h4>
+                        <p>On time every time, a professional and efficient service at a fair and reasonable price that leaves your site spotless.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--手机版新增 get rates-->
-    <div class="mobgetrates moboprate">
-        <div class="mobinnergetrates">
-            <a href="/getrates">GET RATES</a>
-        </div>
-    </div>
-    <!-- end -->
-
+    </section>
+    @include(_get_frontend_theme_path('general.call'))
 
 @stop

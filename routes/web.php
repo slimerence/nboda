@@ -17,6 +17,7 @@ Route::post('/contact-us', 'Frontend\Pages@contact_us_handler');
 Route::post('/get-rates', 'Frontend\Pages@get_rates_handler');
 Route::post('/quick-form', 'Frontend\Pages@quick_form_handler');
 Route::get('/terms', 'Frontend\Pages@terms')->name('terms');
+Route::get('/services/{uri}', 'Newboda\HomeController@service_view');
 
 // 特定的URI
 Route::prefix('page')->group(function(){

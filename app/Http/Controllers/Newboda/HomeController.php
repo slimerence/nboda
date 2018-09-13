@@ -12,6 +12,10 @@ class HomeController extends Controller
     public function view($link){
         //dd('fronted.custom.newboda.pages.'.$link);
         //dd(_get_frontend_theme_path('pages.'.$link));
+        if($link =='services')
+        {
+            $this->dataForView['service']='';
+        }
         $posts = Page::where('type',Page::$TYPE_BLOG)->orderBy('id','asc')->paginate(20);
         $this->dataForView['posts'] = $posts;
         $this->dataForView['pageTitle'] = $link;
@@ -42,5 +46,11 @@ class HomeController extends Controller
     public function cnview($link){
         $this->dataForView['pageTitle'] = $link;
         return view(_get_frontend_theme_path('pages.zn_ch.'.$link),$this->dataForView);
+    }
+
+    public function service_view($uri){
+        $this->dataForView['pageTitle'] = 'services';
+        $this->dataForView['service'] = $uri;
+        return view(_get_frontend_theme_path('pages.services'),$this->dataForView);
     }
 }

@@ -86,7 +86,7 @@
         </div>
     </div>
 </footer>
-@include(_get_frontend_layout_path('frontend.schema'))
+
 <!-- mobile footer -->
 <div class="mobfooter">
     <ul class="clearfix">
