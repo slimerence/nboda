@@ -9,29 +9,38 @@
 @section('content')
     <seciton id="service-panel">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <div class="d-flex flex-wrap justify-content-between service-nav">
-                        <div class="nav-item-6">
-                            <a class="nav-link {{ $service =='' ? 'active':'' }}"  href="{{ url('services') }}" aria-selected="true">END OF LEASE CLEANING</a>
-                        </div>
-                        <div class="nav-item-6">
-                            <a class="nav-link {{ $service =='carpet' ? 'active':'' }}"  href="{{ url('services/carpet') }}" aria-selected="false">CARPET STEAM CLEANING</a>
-                        </div>
-                        <div class="nav-item-6 align-self-stretch">
-                            <a class="nav-link {{ $service =='homeclean' ? 'active':'' }}"  href="{{ url('services/homeclean') }}" aria-selected="false">HOME CLEANING</a>
-                        </div>
-                        <div class="nav-item-6">
-                            <a class="nav-link {{ $service =='commercial' ? 'active':'' }}"  href="{{ url('services/commercial') }}" aria-selected="true">COMMERCIAL CLEANING</a>
-                        </div>
-                        <div class="nav-item-6">
-                            <a class="nav-link {{ $service =='highpressure' ? 'active':'' }}"  href="{{ url('services/highpressure') }}" aria-selected="false">HIGH-PRESSURE CLEANING</a>
-                        </div>
-                        <div class="nav-item-6">
-                            <a class="nav-link {{ $service =='rubbish' ? 'active':'' }}"  href="{{ url('services/rubbish') }}" aria-selected="false">RUBBISH REMOVAL</a>
-                        </div>
+            <div class="row service-nav">
+                <div class="col-xl-2 col-md-4 col-sm-12">
+                    <div class="nav-item-6 {{ $service =='' ? 'active':'' }}">
+                        <a class="nav-link"  href="{{ url('services') }}" aria-selected="true">END OF LEASE CLEANING</a>
                     </div>
                 </div>
+                <div class="col-xl-2 col-md-4 col-sm-12">
+                    <div class="nav-item-6 {{ $service =='carpet' ? 'active':'' }}">
+                        <a class="nav-link"  href="{{ url('services/carpet') }}" aria-selected="false">CARPET STEAM CLEANING</a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-12">
+                    <div class="nav-item-6 {{ $service =='homeclean' ? 'active':'' }}">
+                        <a class="nav-link "  href="{{ url('services/homeclean') }}" aria-selected="false">HOME CLEANING</a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-12">
+                    <div class="nav-item-6 {{ $service =='commercial' ? 'active':'' }}">
+                        <a class="nav-link "  href="{{ url('services/commercial') }}" aria-selected="true">COMMERCIAL CLEANING</a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-12">
+                    <div class="nav-item-6 {{ $service =='highpressure' ? 'active':'' }}">
+                        <a class="nav-link"  href="{{ url('services/highpressure') }}" aria-selected="false">HIGH-PRESSURE CLEANING</a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-12">
+                    <div class="nav-item-6 {{ $service =='rubbish' ? 'active':'' }}">
+                        <a class="nav-link"  href="{{ url('services/rubbish') }}" aria-selected="false">RUBBISH REMOVAL</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </seciton>

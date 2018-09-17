@@ -1,7 +1,7 @@
 <section id="comments" class="bg-light">
     <div class="container-fluid">
         <div class="row">
-            <div class="offset-lg-2 col-lg-6 my-auto col-md-12">
+            <div class="offset-lg-2 col-lg-6 my-auto col-md-12 pr-lg-2">
                 <h3 class="color-normal" style="font-size: 24px; margin-bottom: 1em;">WE ARE JUST A CALL AWAY...</h3>
                 <p style="font-size: 18px;line-height: 2em;">Our head office is located in Port Melbourne, yet we deliver services all around Melbourne. No matter where you live - Melbourne CBD, South Yarra, Toorak, Caulfield, Burwood, Box Hill, Clayton, Heidelberg, Doncaster, Glen Waverley, Brighton, Williamstown, Point Cook... <span>We are just a call away!</span></p>
                 <div class="book-btn my-1" style="max-width: 300px;">
