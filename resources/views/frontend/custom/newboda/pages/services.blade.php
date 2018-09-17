@@ -17,27 +17,27 @@
                 </div>
                 <div class="col-xl-2 col-md-4 col-sm-12">
                     <div class="nav-item-6 {{ $service =='carpet' ? 'active':'' }}">
-                        <a class="nav-link"  href="{{ url('services/carpet') }}" aria-selected="false">CARPET STEAM CLEANING</a>
+                        <a class="nav-link"  href="{{ url('services/carpet-steam-cleaning') }}" aria-selected="false">CARPET STEAM CLEANING</a>
                     </div>
                 </div>
                 <div class="col-xl-2 col-md-4 col-sm-12">
                     <div class="nav-item-6 {{ $service =='homeclean' ? 'active':'' }}">
-                        <a class="nav-link "  href="{{ url('services/homeclean') }}" aria-selected="false">HOME CLEANING</a>
+                        <a class="nav-link "  href="{{ url('services/home-cleaning') }}" aria-selected="false">HOME CLEANING</a>
                     </div>
                 </div>
                 <div class="col-xl-2 col-md-4 col-sm-12">
                     <div class="nav-item-6 {{ $service =='commercial' ? 'active':'' }}">
-                        <a class="nav-link "  href="{{ url('services/commercial') }}" aria-selected="true">COMMERCIAL CLEANING</a>
+                        <a class="nav-link "  href="{{ url('services/commercial-cleaning') }}" aria-selected="true">COMMERCIAL CLEANING</a>
                     </div>
                 </div>
                 <div class="col-xl-2 col-md-4 col-sm-12">
                     <div class="nav-item-6 {{ $service =='highpressure' ? 'active':'' }}">
-                        <a class="nav-link"  href="{{ url('services/highpressure') }}" aria-selected="false">HIGH-PRESSURE CLEANING</a>
+                        <a class="nav-link"  href="{{ url('services/high-pressure-cleaning') }}" aria-selected="false">HIGH-PRESSURE CLEANING</a>
                     </div>
                 </div>
                 <div class="col-xl-2 col-md-4 col-sm-12">
                     <div class="nav-item-6 {{ $service =='rubbish' ? 'active':'' }}">
-                        <a class="nav-link"  href="{{ url('services/rubbish') }}" aria-selected="false">RUBBISH REMOVAL</a>
+                        <a class="nav-link"  href="{{ url('services/rubbish-removal') }}" aria-selected="false">RUBBISH REMOVAL</a>
                     </div>
                 </div>
 

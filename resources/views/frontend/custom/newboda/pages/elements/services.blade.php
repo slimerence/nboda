@@ -9,7 +9,8 @@
             </div>
             <div class="col-lg-8 col-sm-12">
                 <div class="airbnb-top">
-                    <h1>{{ $metaKeywords }}</h1>
+                    <h1>{{ $htag }}</h1>
+                    <h2 class="mtb-10">{{ $metaKeywords }}</h2>
                     <p style="margin-bottom: 0.6em;">All cleaning services are delivered by our thoroughly trained cleaning experts, with the latest techniques and environmental-friendly chemicals, leave your place tidy and fresh.</p>
                     <p><span class="span-bgb">End of Lease Cleaning</span>  Prompt, professional, and 100% bond recovery guarantee</p>
                     <p><span class="span-bgr">Carpet Steam Cleaning</span>  Romoving most of home stains, cheap and cheerful</p>

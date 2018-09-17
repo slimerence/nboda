@@ -15,6 +15,7 @@ class HomeController extends Controller
         if($link =='services')
         {
             $this->dataForView['service']='';
+            $this->dataForView['htag']='End of Lease Cleaning';
             $this->dataForView['metaKeywords']='End of Lease Cleaning | Bond Cleaning';
             $this->dataForView['metaDescription']='NBD is engaged in the end of lease cleaning, house cleaning, short stay cleaning professional company. We provide bond cleaning for most suburbs in Melbourne.';
         }
@@ -52,25 +53,34 @@ class HomeController extends Controller
 
     public function service_view($uri){
         $this->dataForView['pageTitle'] = 'services';
-        $this->dataForView['service'] = $uri;
         switch($uri){
-            case 'carpet':
+            case 'carpet-steam-cleaning':
+                $this->dataForView['htag']='Carpet Steam Cleaning';
+                $this->dataForView['service'] = 'carpet';
                 $this->dataForView['metaKeywords']='Carpet Steam Cleaning | Cleaning Professional';
                 $this->dataForView['metaDescription']='NBD is engaged in the carpet steam cleaning, house cleaning, short stay cleaning professional company. Our professional carpet steam cleaner can help our customers’ house back to tip-top condition. ';
                 break;
-            case 'homeclean':
+            case 'home-cleaning':
+                $this->dataForView['htag']='Home Cleaning';
+                $this->dataForView['service'] = 'homeclean';
                 $this->dataForView['metaKeywords']='Home Cleaning | Oven Cleaning | Housekeeping Services';
                 $this->dataForView['metaDescription']='NBD provides professional housekeeping services for most suburbs in Melbourne. Our home cleaning services including oven cleaning, regular cleaning and one-off cleaning. Call us today: 0395632204.';
                 break;
-            case 'commercial':
+            case 'commercial-cleaning':
+                $this->dataForView['htag']='Commercial Cleaning';
+                $this->dataForView['service'] = 'commercial';
                 $this->dataForView['metaKeywords']='Commercial Cleaning | Office Cleaning Melbourne';
                 $this->dataForView['metaDescription']='NBD has many trained house cleaners and provides professional commercial cleaning service in Melbourne. Which including the office cleaning, window cleaning and others cleaning works. Call us on 0395632204.';
                 break;
-            case 'highpressure':
+            case 'high-pressure-cleaning':
+                $this->dataForView['htag']='High Pressure Cleaning';
+                $this->dataForView['service'] = 'highpressure';
                 $this->dataForView['metaKeywords']='High Pressure Cleaning | House Cleaner';
                 $this->dataForView['metaDescription']='As professional house cleaner, NBD provides high pressure cleaning services to help the customers wash off most stubborn strains in just several minutes. The high pressure water cleaner is safe and helpful. Call us on 0395632204.';
                 break;
-            case 'rubbish':
+            case 'rubbish-removal':
+                $this->dataForView['htag']='Rubbish Removal';
+                $this->dataForView['service'] = 'rubbish';
                 $this->dataForView['metaKeywords']='Rubbish Removal | Housekeeping Melbourne';
                 $this->dataForView['metaDescription']='NBD offers a wide range services of housekeeping Melbourne. We also provide professional and cheap rubbish removals services on all kinds of waste in Melbourne. We take care of everything, call us on 0395632204.';
                 break;

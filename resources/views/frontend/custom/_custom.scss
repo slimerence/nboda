@@ -9,6 +9,10 @@ $theme-light:#bb4131;
   }
 }
 
+.mtb-10{
+  margin-top: 10px;
+  margin-bottom:10px;
+}
 .airbnbhk{
   h3{
     font-size:0.2rem;
@@ -291,6 +295,10 @@ $theme-light:#bb4131;
     }
     text-transform: uppercase;
     margin-bottom: 0.6em;
+  }
+  h2{
+    font-size: 20px;
+    color:#464646;
   }
   p{
     font-size:20px;
