@@ -23,7 +23,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <h3>ONE-OFF CLEAN</h3>
-                    <p>You can book a one.off clean any time if you think your house needs to be cleaned. </p>
+                    <p>No matter you want housekeeping services or just an oven cleaning, you can book a once-off clean any time if you think your house needs to be cleaned
+                    </p>
                     <h3>REGULAR CLEAN</h3>
                     <p>You can turn a once off clean into a regular clean if you want your house to be cleaned routinely. There is no lock.in contract attached, you can cancel the service any time. </p>
                     <h3>DEEP CLEAN</h3>

@@ -30,8 +30,10 @@
             <div class="row">
                 <div class="col-md-6">
                     <h3>WHY NOT LEAVE YOUR TIME FOR PACKING AND LET US DO THE CLEANING FOR YOU?</h3>
-                    <p class="mb-1">We have more than 60 cleaning experts within Melbourne metropolitan area thus we can provide our services for most suburbs in Melbourne even in very short notice.</p>
-                    <p class="mb-2">All our cleaners are professional, experienced, and with a valid National Police Check. We have more than 8 years experiences in cleaning and cooperate with many real estate agencies.</p>
+                    <p class="mb-1">We have more than 60 professional cleaners within Melbourne metropolitan area. All our cleaners are well-equipped, experienced, and with valid National Police Check.
+                    </p>
+                    <p class="mb-2">We have more than 8 years of experiences in bond cleaning and cooperate with many real estate agencies, we can definitely help you get your bonds back!
+                    </p>
                     <h3>100% SATISFACTION GUARANTEE</h3>
                     <p>We don't believe in doing a good job, we believe in doing a great job. We will re-attend to any issues that caused by our cleaning service and fix it up <span class="color-normal">for free</span>!</p>
                 </div>

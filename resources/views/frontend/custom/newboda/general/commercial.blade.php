@@ -13,8 +13,10 @@
                 </ul>
             </div>
             <div class="col-md-6 col-sm-12 px-md-1 align-self-center">
-                <p class="mb-1">We are one of the best commercial cleaning companies in Melbourne, with highly experienced team and latest professional method to serve your cleaning needs and fit into your commercial needs . </p>
-                <p>All products we used are bio-degradable, non-toxic and environmental-friendly, leaving your workplace clean and fresh every time we finish the job.</p>
+                <p class="mb-1">We are one of the best office cleaning companies in Melbourne, with highly experienced team and latest professional method to serve your cleaning needs and fit into your commercial needs.
+                </p>
+                <p>All products we used are bio-degradable, non-toxic and environmental-friendly, leaving your workplace clean and fresh every time we finish the job.
+                </p>
             </div>
         </div>
     </div>

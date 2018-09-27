@@ -18,12 +18,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3>WHAT IS CARPET STEAM CLEAN</h3>
-                    <p class="mb-1">Carpet steam clean is different from vacuum clean. It used
-                        high-temperature steam to clean and sterilise the carpet.
-                        Most end of lease clean requires a professional carpet
-                        steam clean before the tenant move out. </p>
-                    <h3>WHAT CAN BE REMOVED BY CARPET STEAM CLEAN</h3>
+                    <h3>WHAT IS CARPET STEAM CLEANING</h3>
+                    <p class="mb-1">Carpet steam clean is different from vacuum cleaning. It used high-temperature steam to clean and sterilise the carpet,
+                        and must be provided by qualified cleaning professional. Most end of lease clean requires a professional carpet steam clean before the tenant move out. </p>
+                    <h3>WHAT CAN BE REMOVED BY CARPET STEAM CLEANING</h3>
                     <p>It is very common to spill something on carpet - don't blame yourself for that. For most circumstance, tea stains, coffee stains, grease stains and mould can be removed by a thorough carpet steam clean.</p>
                     <p>Sometimes, your four-legged friends may also pee on your carpet which need to be steam cleaned and deodorise properly. </p>
                 </div>
@@ -35,9 +33,9 @@
                         <li>Upholstery steam clean </li>
                         <li>Mat steam clean </li>
                     </ul>
-                    <p>All steam cleaning services are operated by professional cleaners, no harm to your carpet and furnitures, no residue of chemicals. </p>
+                    <p>All steam cleaning services are operated by professional cleaners, no harm to your carpet and furniture, no residue of chemicals. </p>
 
-                    <h3 class="mt-1">COMMERCIAL CARPET STEAM CLEAN</h3>
+                    <h3 class="mt-1">COMMERCIAL CARPET STEAM CLEANING</h3>
                     <p>It is necessary for workplace to have the carpet steam cleaned regularly, as it can greatly reduce allergens in the office.
                         <a href="{{ url('getrates') }}"><span>Get your free quote now</span></a> to help your workplace fresh and healthy! </p>
                 </div>

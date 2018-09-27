@@ -22,12 +22,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3>DON'T LET MOULD AND GRAFFITI RUIN YOUR BUILDING </h3>
-                    <p class="mb-1 line-height-special">Mould and graffiti are annoying as they make your property look
-                        messy and dirty. High.pressure washing can remove these stubborn stains in just several minutes and improves the look of your home exteriors as well as prolongs their life. </p>
-                    <p class="line-height-special">The pressure cleaning technique is safe as it uses nothing but
-                        the power of pressured water, no marks and scratches will be
-                        left on the treated surface when the equipment is handled correctly by our professional staffs. </p>
+                    <h3>DON'T LET MOULD AND GRAFFITI RUIN YOUR BUILDING | HOUSE CLEANER </h3>
+                    <p class="mb-1 line-height-special">Mould and graffiti are annoying as they make your property look messy and dirty, and they are less likely to be removed by house cleaners.
+                        High-pressure washing can remove these stubborn stains in just several minutes and improves the look of your home exteriors as well as prolongs their life.
+                    </p>
+                    <p class="line-height-special">The pressure cleaning technique is safe as it uses nothing but the power of pressured water, no marks and scratches will be left on the treated surface when the equipment is handled correctly by our professional staffs.
+                    </p>
                 </div>
                 <div class="col-md-6 align-self-center">
                     <img src="{{ asset('images/newfrontend/hp1.jpg') }}" class="img-fluid w-100" alt="">
