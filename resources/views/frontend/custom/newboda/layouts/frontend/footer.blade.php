@@ -77,7 +77,7 @@
                                 <li>Richmond</li>
                                 <li>South Yarra</li>
                                 <li>South Melbourne</li>
-                                <li><a href="{{ url('/contact-us') }}"><strong>More Area</strong></a></li>
+                                <li><a href="{{ url('/related-articles') }}"><strong>Blogs & News</strong></a></li>
                             </ul>
                         </div>
                     </div>
