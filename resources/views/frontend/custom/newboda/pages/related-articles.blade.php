@@ -26,7 +26,7 @@
             <div class="txt">
                 <div class="cssTable">
                     <div class="cssTd">
-                        <h1>Just A Simple Click To Book Our Service!</h1>
+                        <h3>Just A Simple Click To Book Our Service!</h3>
                         <a href="/getrates">GET RATES</a>
                     </div>
                 </div>
