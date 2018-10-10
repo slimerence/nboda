@@ -3,7 +3,7 @@
 
 @section('seoconfig')
     <meta name="keywords" content="Home Cleaning Melbourne | Bond Cleaning Melbourne">
-    @endsection
+@endsection
 @section('content')
 
     <div class="conlistbox gallerylistbox">

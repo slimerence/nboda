@@ -29,7 +29,9 @@ class HomeController extends Controller
         //$posts = Page::where('type',Page::$TYPE_BLOG)->orderBy('id','asc')->paginate(20);
         $posts = Page::where('uri','/'.$uri)->first();
         $this->dataForView['posts'] = $posts;
-        $this->dataForView['pageTitle'] = 'article';
+        $this->dataForView['pageTitle'] = app()->getLocale()=='cn' ? $posts->title_cn : $posts->title;
+        $this->dataForView['metaKeywords'] = $posts->seo_keyword;
+        $this->dataForView['metaDescription'] = $posts->seo_description;
         return view(_get_frontend_theme_path('pages.article'),$this->dataForView);
     }
 
