@@ -1,9 +1,9 @@
 @extends(_get_frontend_layout_path('frontend'))
-@section('title',$pageTitle)
+@section('title',$pageName)
 
 @section('seoconfig')
-    <meta name="keywords" content={{  }}>
-    <meta name="description" content={{  }}/>
+    <meta name="keywords" content={{ $metaKeywords }}>
+    <meta name="description" content={{ $metaDescription }}/>
 @endsection
 @section('content')
     <div class="article-box">
