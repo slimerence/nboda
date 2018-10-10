@@ -9,7 +9,8 @@
             </div>
             <div class="col-lg-8 col-sm-12">
                 <div class="airbnb-top">
-                    <h1 style="text-transform: uppercase;margin-bottom: 0.6em;">Airbnb Cleaning | Short Stay Cleaning</h1>
+                    <h1 style="text-transform: uppercase;margin-bottom: 0.6em;">Airbnb Cleaning</h1>
+                    <h2>Short Stay Cleaning</h2>
                     <p>We know how pleasant guests would be if they found their accommodation neat and tidy, and thus we offer a hassle-free short stay cleaning service for all Airbnb hosts in and around Melbourne.</p>
                     <p>Our airbnb cleaning services are delivered by specially trained cleaning experts, providing a fast and efficient general cleaning every time after your guests checked out or on your demand - even with very short notice.</p>
                     <p>We also provide a wide range of hotel-grade linen and consumable, as well as professional maintenance service.</p>
