@@ -18,6 +18,10 @@ Route::post('/get-rates', 'Frontend\Pages@get_rates_handler');
 Route::post('/quick-form', 'Frontend\Pages@quick_form_handler');
 Route::get('/terms', 'Frontend\Pages@terms')->name('terms');
 Route::get('/services/{uri}', 'Newboda\HomeController@service_view');
+Route::get('/sitemap.xml',function(){
+    return response()->view(_get_frontend_theme_path('pages.sitemap'))
+        ->header('Content-Type', 'xml');
+});
 
 // 特定的URI
 Route::prefix('page')->group(function(){
