@@ -8,7 +8,7 @@
             <a href="/aboutus" class="{{ $pageTitle=='aboutus' ? 'current':null }}">ABOUT US</a>
         </li>
         <li>
-            <a href="/services" class="{{ $pageTitle=='services' ? 'current':null }}">SERVICES</a>
+            <a href="{{ url('services/end-of-lease-cleaning') }}" class="{{ $pageTitle=='services' ? 'current':null }}">SERVICES</a>
         </li>
         <li>
             <a href="/airbnb" class="{{ $pageTitle=='airbnb' ? 'current':null }}">AIRBNB CLEANING</a>

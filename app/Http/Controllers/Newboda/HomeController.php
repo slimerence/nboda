@@ -87,6 +87,12 @@ class HomeController extends Controller
                 $this->dataForView['metaKeywords']='Rubbish Removal | Housekeeping Melbourne';
                 $this->dataForView['metaDescription']='NBD offers a wide range services of housekeeping Melbourne. We also provide professional and cheap rubbish removals services on all kinds of waste in Melbourne. We take care of everything, call us on 0395632204.';
                 break;
+            case 'end-of-lease-cleaning':
+                $this->dataForView['htag']='End of Lease Cleaning';
+                $this->dataForView['service'] = '';
+                $this->dataForView['metaKeywords']='End of Lease Cleaning | Bond Cleaning';
+                $this->dataForView['metaDescription']='NBD is engaged in the end of lease cleaning, house cleaning, short stay cleaning professional company. We provide bond cleaning for most suburbs in Melbourne.';
+                break;
         }
         return view(_get_frontend_theme_path('pages.services'),$this->dataForView);
     }

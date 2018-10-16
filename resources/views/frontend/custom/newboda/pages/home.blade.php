@@ -1,6 +1,5 @@
 @extends(_get_frontend_layout_path('frontend'))
 @section('title','Cleaning Services | Professional House Cleaners')
-
 @section('seoconfig')
     <meta name="keywords" content="Cleaning Services | Professional House Cleaners">
     <meta name="description" content="NBD has many professional house cleaners to provide cleaning services for Melbourne customers. We provide thorough Melbourne Regular Cleaning services for both commercial cleaning and house cleaning services intended to keep your office and house clean and in tip top condition."/>

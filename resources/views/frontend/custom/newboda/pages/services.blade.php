@@ -12,7 +12,7 @@
             <div class="row service-nav">
                 <div class="col-xl-2 col-md-4 col-sm-12">
                     <div class="nav-item-6 {{ $service =='' ? 'active':'' }}">
-                        <a class="nav-link"  href="{{ url('services') }}" aria-selected="true">END OF LEASE CLEANING</a>
+                        <a class="nav-link"  href="{{ url('services/end-of-lease-cleaning') }}" aria-selected="true">END OF LEASE CLEANING</a>
                     </div>
                 </div>
                 <div class="col-xl-2 col-md-4 col-sm-12">

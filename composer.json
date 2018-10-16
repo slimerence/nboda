@@ -68,5 +68,6 @@
         "optimize-autoloader": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "laravelium/sitemap": "2.8.*"
 }
